@@ -16,7 +16,8 @@ Godot 4.5.1 GDScript 模块。复制整个文件夹到 `res://addons/time_bureau
 要允许直接删除整个目录，宿主用 `ResourceLoader.exists(path)` 检查后动态 `load(path)`，目录不存在时进入宿主原流程。避免在其他场景中硬引用或 `preload` 本模块。卸载时释放实例，删除本目录即可；信号连接随节点自动清理。
 
 根目录的 `使用与接入说明.md` 含完整说明和可直接采用的接入代码。`example/demo_host.gd` 演示了开始新游戏、设置应用、退出和模块缺失的回退流程。
-# Game 工程接入补充（2026-10-24）
+
+## Game 工程接入补充（2026-10-24）
 
 本目录从 T13 的独立菜单复制而来，保留原背景、信号和设置接口。新增
 `add_settings_action(caption: String, callback: Callable) -> Button`：宿主追加设置入口，
