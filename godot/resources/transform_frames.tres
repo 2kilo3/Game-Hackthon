@@ -1,0 +1,106 @@
+[gd_resource type="SpriteFrames" load_steps=25 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/boss/transform/transform_01.png" id="t1"]
+[ext_resource type="Texture2D" path="res://assets/boss/transform/transform_02.png" id="t2"]
+[ext_resource type="Texture2D" path="res://assets/boss/transform/transform_03.png" id="t3"]
+[ext_resource type="Texture2D" path="res://assets/boss/transform/transform_04.png" id="t4"]
+[ext_resource type="Texture2D" path="res://assets/boss/transform/transform_05.png" id="t5"]
+[ext_resource type="Texture2D" path="res://assets/boss/transform/transform_06.png" id="t6"]
+[ext_resource type="Texture2D" path="res://assets/boss/transform/transform_07.png" id="t7"]
+[ext_resource type="Texture2D" path="res://assets/boss/transform/transform_08.png" id="t8"]
+[ext_resource type="Texture2D" path="res://assets/boss/transform/transform_09.png" id="t9"]
+[ext_resource type="Texture2D" path="res://assets/boss/transform/transform_10.png" id="t10"]
+[ext_resource type="Texture2D" path="res://assets/boss/transform/transform_11.png" id="t11"]
+[ext_resource type="Texture2D" path="res://assets/boss/transform/transform_12.png" id="t12"]
+[ext_resource type="Texture2D" path="res://assets/boss/transform/transform_13.png" id="t13"]
+[ext_resource type="Texture2D" path="res://assets/boss/transform/transform_14.png" id="t14"]
+[ext_resource type="Texture2D" path="res://assets/boss/transform/transform_15.png" id="t15"]
+[ext_resource type="Texture2D" path="res://assets/boss/transform/transform_16.png" id="t16"]
+[ext_resource type="Texture2D" path="res://assets/boss/transform/transform_17.png" id="t17"]
+[ext_resource type="Texture2D" path="res://assets/boss/transform/transform_18.png" id="t18"]
+[ext_resource type="Texture2D" path="res://assets/boss/transform/transform_19.png" id="t19"]
+[ext_resource type="Texture2D" path="res://assets/boss/transform/transform_20.png" id="t20"]
+[ext_resource type="Texture2D" path="res://assets/boss/transform/transform_21.png" id="t21"]
+[ext_resource type="Texture2D" path="res://assets/boss/transform/transform_22.png" id="t22"]
+[ext_resource type="Texture2D" path="res://assets/boss/transform/transform_23.png" id="t23"]
+[ext_resource type="Texture2D" path="res://assets/boss/transform/transform_24.png" id="t24"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("t1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("t2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("t3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("t4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("t5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("t6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("t7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("t8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("t9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("t10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("t11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("t12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("t13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("t14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("t15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("t16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("t17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("t18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("t19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("t20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("t21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("t22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("t23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("t24")
+}],
+"loop": false,
+"name": &"transform",
+"speed": 14.0
+}]

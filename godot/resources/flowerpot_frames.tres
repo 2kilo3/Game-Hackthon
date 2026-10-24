@@ -1,0 +1,74 @@
+[gd_resource type="SpriteFrames" load_steps=17 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/props/flowerpot/flowerpot_break_once_0001.png" id="1"]
+[ext_resource type="Texture2D" path="res://assets/props/flowerpot/flowerpot_break_once_0002.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/props/flowerpot/flowerpot_break_once_0003.png" id="3"]
+[ext_resource type="Texture2D" path="res://assets/props/flowerpot/flowerpot_break_once_0004.png" id="4"]
+[ext_resource type="Texture2D" path="res://assets/props/flowerpot/flowerpot_break_once_0005.png" id="5"]
+[ext_resource type="Texture2D" path="res://assets/props/flowerpot/flowerpot_break_once_0006.png" id="6"]
+[ext_resource type="Texture2D" path="res://assets/props/flowerpot/flowerpot_break_once_0007.png" id="7"]
+[ext_resource type="Texture2D" path="res://assets/props/flowerpot/flowerpot_break_once_0008.png" id="8"]
+[ext_resource type="Texture2D" path="res://assets/props/flowerpot/flowerpot_break_once_0009.png" id="9"]
+[ext_resource type="Texture2D" path="res://assets/props/flowerpot/flowerpot_break_once_0010.png" id="10"]
+[ext_resource type="Texture2D" path="res://assets/props/flowerpot/flowerpot_break_once_0011.png" id="11"]
+[ext_resource type="Texture2D" path="res://assets/props/flowerpot/flowerpot_break_once_0012.png" id="12"]
+[ext_resource type="Texture2D" path="res://assets/props/flowerpot/flowerpot_break_once_0013.png" id="13"]
+[ext_resource type="Texture2D" path="res://assets/props/flowerpot/flowerpot_break_once_0014.png" id="14"]
+[ext_resource type="Texture2D" path="res://assets/props/flowerpot/flowerpot_break_once_0015.png" id="15"]
+[ext_resource type="Texture2D" path="res://assets/props/flowerpot/flowerpot_break_once_0016.png" id="16"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}],
+"loop": false,
+"name": &"break",
+"speed": 12.0
+}]

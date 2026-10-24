@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/claw_hook.gd" id="1_hook"]
+[ext_resource type="SpriteFrames" path="res://resources/claw_hook_frames.tres" id="2_frames"]
+
+[node name="ClawHook" type="Node2D"]
+z_index = 20
+script = ExtResource("1_hook")
+
+[node name="Sprite" type="AnimatedSprite2D" parent="."]
+sprite_frames = ExtResource("2_frames")
+animation = &"throw_S"
+offset = Vector2(0, -16)
+centered = true

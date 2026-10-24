@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://scripts/energy_pylon.gd" id="1_pylon"]
+[ext_resource type="SpriteFrames" path="res://resources/pylon_frames.tres" id="2_frames"]
+
+[sub_resource type="RectangleShape2D" id="Rect_pylon"]
+size = Vector2(58, 56)
+
+[node name="EnergyPylon" type="StaticBody2D"]
+collision_layer = 0
+collision_mask = 0
+script = ExtResource("1_pylon")
+
+[node name="Sprite" type="AnimatedSprite2D" parent="."]
+sprite_frames = ExtResource("2_frames")
+animation = &"idle"
+offset = Vector2(0, -48)
+centered = true
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+position = Vector2(0, -28)
+shape = SubResource("Rect_pylon")

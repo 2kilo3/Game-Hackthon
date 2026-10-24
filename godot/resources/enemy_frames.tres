@@ -1,0 +1,1501 @@
+[gd_resource type="SpriteFrames" load_steps=305 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/down/walk_down_01.png" id="1"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/down/walk_down_02.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/down/walk_down_03.png" id="3"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/down/walk_down_04.png" id="4"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/down/walk_down_05.png" id="5"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/down/walk_down_06.png" id="6"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/downleft/walk_downleft_01.png" id="7"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/downleft/walk_downleft_02.png" id="8"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/downleft/walk_downleft_03.png" id="9"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/downleft/walk_downleft_04.png" id="10"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/downleft/walk_downleft_05.png" id="11"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/downleft/walk_downleft_06.png" id="12"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/downright/walk_downright_01.png" id="13"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/downright/walk_downright_02.png" id="14"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/downright/walk_downright_03.png" id="15"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/downright/walk_downright_04.png" id="16"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/downright/walk_downright_05.png" id="17"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/downright/walk_downright_06.png" id="18"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/left/walk_left_01.png" id="19"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/left/walk_left_02.png" id="20"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/left/walk_left_03.png" id="21"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/left/walk_left_04.png" id="22"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/left/walk_left_05.png" id="23"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/left/walk_left_06.png" id="24"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/right/walk_right_01.png" id="25"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/right/walk_right_02.png" id="26"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/right/walk_right_03.png" id="27"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/right/walk_right_04.png" id="28"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/right/walk_right_05.png" id="29"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/right/walk_right_06.png" id="30"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/up/walk_up_01.png" id="31"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/up/walk_up_02.png" id="32"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/up/walk_up_03.png" id="33"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/up/walk_up_04.png" id="34"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/up/walk_up_05.png" id="35"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/up/walk_up_06.png" id="36"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/upleft/walk_upleft_01.png" id="37"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/upleft/walk_upleft_02.png" id="38"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/upleft/walk_upleft_03.png" id="39"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/upleft/walk_upleft_04.png" id="40"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/upleft/walk_upleft_05.png" id="41"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/upleft/walk_upleft_06.png" id="42"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/upright/walk_upright_01.png" id="43"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/upright/walk_upright_02.png" id="44"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/upright/walk_upright_03.png" id="45"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/upright/walk_upright_04.png" id="46"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/upright/walk_upright_05.png" id="47"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/walk/upright/walk_upright_06.png" id="48"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/shoot/down/shoot_down_01.png" id="49"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/shoot/down/shoot_down_02.png" id="50"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/shoot/down/shoot_down_03.png" id="51"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/shoot/down/shoot_down_04.png" id="52"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/shoot/downleft/shoot_downleft_01.png" id="53"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/shoot/downleft/shoot_downleft_02.png" id="54"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/shoot/downleft/shoot_downleft_03.png" id="55"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/shoot/downleft/shoot_downleft_04.png" id="56"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/shoot/downright/shoot_downright_01.png" id="57"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/shoot/downright/shoot_downright_02.png" id="58"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/shoot/downright/shoot_downright_03.png" id="59"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/shoot/downright/shoot_downright_04.png" id="60"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/shoot/left/shoot_left_01.png" id="61"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/shoot/left/shoot_left_02.png" id="62"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/shoot/left/shoot_left_03.png" id="63"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/shoot/left/shoot_left_04.png" id="64"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/shoot/right/shoot_right_01.png" id="65"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/shoot/right/shoot_right_02.png" id="66"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/shoot/right/shoot_right_03.png" id="67"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/shoot/right/shoot_right_04.png" id="68"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/shoot/up/shoot_up_01.png" id="69"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/shoot/up/shoot_up_02.png" id="70"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/shoot/up/shoot_up_03.png" id="71"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/shoot/up/shoot_up_04.png" id="72"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/shoot/upleft/shoot_upleft_01.png" id="73"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/shoot/upleft/shoot_upleft_02.png" id="74"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/shoot/upleft/shoot_upleft_03.png" id="75"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/shoot/upleft/shoot_upleft_04.png" id="76"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/shoot/upright/shoot_upright_01.png" id="77"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/shoot/upright/shoot_upright_02.png" id="78"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/shoot/upright/shoot_upright_03.png" id="79"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/shoot/upright/shoot_upright_04.png" id="80"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/muzzle/down/muzzle_down_01.png" id="81"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/muzzle/down/muzzle_down_02.png" id="82"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/muzzle/down/muzzle_down_03.png" id="83"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/muzzle/downleft/muzzle_downleft_01.png" id="84"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/muzzle/downleft/muzzle_downleft_02.png" id="85"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/muzzle/downleft/muzzle_downleft_03.png" id="86"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/muzzle/downright/muzzle_downright_01.png" id="87"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/muzzle/downright/muzzle_downright_02.png" id="88"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/muzzle/downright/muzzle_downright_03.png" id="89"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/muzzle/left/muzzle_left_01.png" id="90"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/muzzle/left/muzzle_left_02.png" id="91"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/muzzle/left/muzzle_left_03.png" id="92"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/muzzle/right/muzzle_right_01.png" id="93"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/muzzle/right/muzzle_right_02.png" id="94"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/muzzle/right/muzzle_right_03.png" id="95"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/muzzle/up/muzzle_up_01.png" id="96"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/muzzle/up/muzzle_up_02.png" id="97"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/muzzle/up/muzzle_up_03.png" id="98"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/muzzle/upleft/muzzle_upleft_01.png" id="99"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/muzzle/upleft/muzzle_upleft_02.png" id="100"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/muzzle/upleft/muzzle_upleft_03.png" id="101"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/muzzle/upright/muzzle_upright_01.png" id="102"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/muzzle/upright/muzzle_upright_02.png" id="103"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/muzzle/upright/muzzle_upright_03.png" id="104"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/down/spawn_down_01.png" id="105"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/down/spawn_down_02.png" id="106"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/down/spawn_down_03.png" id="107"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/down/spawn_down_04.png" id="108"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/down/spawn_down_05.png" id="109"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/down/spawn_down_06.png" id="110"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/down/spawn_down_07.png" id="111"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/down/spawn_down_08.png" id="112"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/down/spawn_down_09.png" id="113"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/downleft/spawn_downleft_01.png" id="114"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/downleft/spawn_downleft_02.png" id="115"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/downleft/spawn_downleft_03.png" id="116"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/downleft/spawn_downleft_04.png" id="117"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/downleft/spawn_downleft_05.png" id="118"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/downleft/spawn_downleft_06.png" id="119"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/downleft/spawn_downleft_07.png" id="120"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/downleft/spawn_downleft_08.png" id="121"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/downleft/spawn_downleft_09.png" id="122"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/downright/spawn_downright_01.png" id="123"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/downright/spawn_downright_02.png" id="124"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/downright/spawn_downright_03.png" id="125"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/downright/spawn_downright_04.png" id="126"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/downright/spawn_downright_05.png" id="127"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/downright/spawn_downright_06.png" id="128"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/downright/spawn_downright_07.png" id="129"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/downright/spawn_downright_08.png" id="130"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/downright/spawn_downright_09.png" id="131"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/left/spawn_left_01.png" id="132"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/left/spawn_left_02.png" id="133"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/left/spawn_left_03.png" id="134"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/left/spawn_left_04.png" id="135"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/left/spawn_left_05.png" id="136"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/left/spawn_left_06.png" id="137"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/left/spawn_left_07.png" id="138"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/left/spawn_left_08.png" id="139"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/left/spawn_left_09.png" id="140"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/right/spawn_right_01.png" id="141"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/right/spawn_right_02.png" id="142"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/right/spawn_right_03.png" id="143"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/right/spawn_right_04.png" id="144"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/right/spawn_right_05.png" id="145"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/right/spawn_right_06.png" id="146"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/right/spawn_right_07.png" id="147"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/right/spawn_right_08.png" id="148"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/right/spawn_right_09.png" id="149"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/up/spawn_up_01.png" id="150"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/up/spawn_up_02.png" id="151"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/up/spawn_up_03.png" id="152"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/up/spawn_up_04.png" id="153"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/up/spawn_up_05.png" id="154"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/up/spawn_up_06.png" id="155"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/up/spawn_up_07.png" id="156"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/up/spawn_up_08.png" id="157"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/up/spawn_up_09.png" id="158"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/upleft/spawn_upleft_01.png" id="159"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/upleft/spawn_upleft_02.png" id="160"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/upleft/spawn_upleft_03.png" id="161"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/upleft/spawn_upleft_04.png" id="162"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/upleft/spawn_upleft_05.png" id="163"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/upleft/spawn_upleft_06.png" id="164"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/upleft/spawn_upleft_07.png" id="165"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/upleft/spawn_upleft_08.png" id="166"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/upleft/spawn_upleft_09.png" id="167"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/upright/spawn_upright_01.png" id="168"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/upright/spawn_upright_02.png" id="169"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/upright/spawn_upright_03.png" id="170"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/upright/spawn_upright_04.png" id="171"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/upright/spawn_upright_05.png" id="172"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/upright/spawn_upright_06.png" id="173"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/upright/spawn_upright_07.png" id="174"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/upright/spawn_upright_08.png" id="175"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/spawn/upright/spawn_upright_09.png" id="176"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/down/break_enter_down_01.png" id="177"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/down/break_enter_down_02.png" id="178"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/down/break_enter_down_03.png" id="179"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/down/break_enter_down_04.png" id="180"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/down/break_enter_down_05.png" id="181"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/down/break_enter_down_06.png" id="182"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/downleft/break_enter_downleft_01.png" id="183"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/downleft/break_enter_downleft_02.png" id="184"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/downleft/break_enter_downleft_03.png" id="185"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/downleft/break_enter_downleft_04.png" id="186"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/downleft/break_enter_downleft_05.png" id="187"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/downleft/break_enter_downleft_06.png" id="188"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/downright/break_enter_downright_01.png" id="189"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/downright/break_enter_downright_02.png" id="190"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/downright/break_enter_downright_03.png" id="191"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/downright/break_enter_downright_04.png" id="192"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/downright/break_enter_downright_05.png" id="193"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/downright/break_enter_downright_06.png" id="194"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/left/break_enter_left_01.png" id="195"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/left/break_enter_left_02.png" id="196"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/left/break_enter_left_03.png" id="197"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/left/break_enter_left_04.png" id="198"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/left/break_enter_left_05.png" id="199"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/left/break_enter_left_06.png" id="200"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/right/break_enter_right_01.png" id="201"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/right/break_enter_right_02.png" id="202"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/right/break_enter_right_03.png" id="203"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/right/break_enter_right_04.png" id="204"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/right/break_enter_right_05.png" id="205"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/right/break_enter_right_06.png" id="206"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/up/break_enter_up_01.png" id="207"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/up/break_enter_up_02.png" id="208"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/up/break_enter_up_03.png" id="209"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/up/break_enter_up_04.png" id="210"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/up/break_enter_up_05.png" id="211"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/up/break_enter_up_06.png" id="212"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/upleft/break_enter_upleft_01.png" id="213"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/upleft/break_enter_upleft_02.png" id="214"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/upleft/break_enter_upleft_03.png" id="215"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/upleft/break_enter_upleft_04.png" id="216"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/upleft/break_enter_upleft_05.png" id="217"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/upleft/break_enter_upleft_06.png" id="218"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/upright/break_enter_upright_01.png" id="219"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/upright/break_enter_upright_02.png" id="220"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/upright/break_enter_upright_03.png" id="221"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/upright/break_enter_upright_04.png" id="222"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/upright/break_enter_upright_05.png" id="223"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_enter/upright/break_enter_upright_06.png" id="224"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_hold/down/break_hold_down_01.png" id="225"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_hold/down/break_hold_down_02.png" id="226"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_hold/down/break_hold_down_03.png" id="227"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_hold/down/break_hold_down_04.png" id="228"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_hold/downleft/break_hold_downleft_01.png" id="229"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_hold/downleft/break_hold_downleft_02.png" id="230"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_hold/downleft/break_hold_downleft_03.png" id="231"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_hold/downleft/break_hold_downleft_04.png" id="232"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_hold/downright/break_hold_downright_01.png" id="233"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_hold/downright/break_hold_downright_02.png" id="234"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_hold/downright/break_hold_downright_03.png" id="235"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_hold/downright/break_hold_downright_04.png" id="236"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_hold/left/break_hold_left_01.png" id="237"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_hold/left/break_hold_left_02.png" id="238"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_hold/left/break_hold_left_03.png" id="239"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_hold/left/break_hold_left_04.png" id="240"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_hold/right/break_hold_right_01.png" id="241"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_hold/right/break_hold_right_02.png" id="242"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_hold/right/break_hold_right_03.png" id="243"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_hold/right/break_hold_right_04.png" id="244"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_hold/up/break_hold_up_01.png" id="245"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_hold/up/break_hold_up_02.png" id="246"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_hold/up/break_hold_up_03.png" id="247"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_hold/up/break_hold_up_04.png" id="248"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_hold/upleft/break_hold_upleft_01.png" id="249"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_hold/upleft/break_hold_upleft_02.png" id="250"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_hold/upleft/break_hold_upleft_03.png" id="251"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_hold/upleft/break_hold_upleft_04.png" id="252"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_hold/upright/break_hold_upright_01.png" id="253"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_hold/upright/break_hold_upright_02.png" id="254"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_hold/upright/break_hold_upright_03.png" id="255"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_hold/upright/break_hold_upright_04.png" id="256"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/down/break_recover_down_01.png" id="257"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/down/break_recover_down_02.png" id="258"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/down/break_recover_down_03.png" id="259"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/down/break_recover_down_04.png" id="260"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/down/break_recover_down_05.png" id="261"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/down/break_recover_down_06.png" id="262"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/downleft/break_recover_downleft_01.png" id="263"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/downleft/break_recover_downleft_02.png" id="264"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/downleft/break_recover_downleft_03.png" id="265"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/downleft/break_recover_downleft_04.png" id="266"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/downleft/break_recover_downleft_05.png" id="267"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/downleft/break_recover_downleft_06.png" id="268"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/downright/break_recover_downright_01.png" id="269"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/downright/break_recover_downright_02.png" id="270"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/downright/break_recover_downright_03.png" id="271"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/downright/break_recover_downright_04.png" id="272"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/downright/break_recover_downright_05.png" id="273"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/downright/break_recover_downright_06.png" id="274"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/left/break_recover_left_01.png" id="275"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/left/break_recover_left_02.png" id="276"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/left/break_recover_left_03.png" id="277"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/left/break_recover_left_04.png" id="278"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/left/break_recover_left_05.png" id="279"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/left/break_recover_left_06.png" id="280"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/right/break_recover_right_01.png" id="281"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/right/break_recover_right_02.png" id="282"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/right/break_recover_right_03.png" id="283"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/right/break_recover_right_04.png" id="284"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/right/break_recover_right_05.png" id="285"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/right/break_recover_right_06.png" id="286"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/up/break_recover_up_01.png" id="287"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/up/break_recover_up_02.png" id="288"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/up/break_recover_up_03.png" id="289"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/up/break_recover_up_04.png" id="290"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/up/break_recover_up_05.png" id="291"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/up/break_recover_up_06.png" id="292"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/upleft/break_recover_upleft_01.png" id="293"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/upleft/break_recover_upleft_02.png" id="294"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/upleft/break_recover_upleft_03.png" id="295"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/upleft/break_recover_upleft_04.png" id="296"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/upleft/break_recover_upleft_05.png" id="297"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/upleft/break_recover_upleft_06.png" id="298"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/upright/break_recover_upright_01.png" id="299"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/upright/break_recover_upright_02.png" id="300"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/upright/break_recover_upright_03.png" id="301"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/upright/break_recover_upright_04.png" id="302"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/upright/break_recover_upright_05.png" id="303"]
+[ext_resource type="Texture2D" path="res://assets/enemies/gunner/break_recover/upright/break_recover_upright_06.png" id="304"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}],
+"loop": true,
+"name": &"walk_down",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}],
+"loop": true,
+"name": &"walk_downleft",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}],
+"loop": true,
+"name": &"walk_downright",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}],
+"loop": true,
+"name": &"walk_left",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}],
+"loop": true,
+"name": &"walk_right",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}],
+"loop": true,
+"name": &"walk_up",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}],
+"loop": true,
+"name": &"walk_upleft",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}],
+"loop": true,
+"name": &"walk_upright",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}],
+"loop": false,
+"name": &"shoot_down",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56")
+}],
+"loop": false,
+"name": &"shoot_downleft",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60")
+}],
+"loop": false,
+"name": &"shoot_downright",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64")
+}],
+"loop": false,
+"name": &"shoot_left",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68")
+}],
+"loop": false,
+"name": &"shoot_right",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("69")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72")
+}],
+"loop": false,
+"name": &"shoot_up",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76")
+}],
+"loop": false,
+"name": &"shoot_upleft",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80")
+}],
+"loop": false,
+"name": &"shoot_upright",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83")
+}],
+"loop": false,
+"name": &"muzzle_down",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86")
+}],
+"loop": false,
+"name": &"muzzle_downleft",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89")
+}],
+"loop": false,
+"name": &"muzzle_downright",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("90")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92")
+}],
+"loop": false,
+"name": &"muzzle_left",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("93")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95")
+}],
+"loop": false,
+"name": &"muzzle_right",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("96")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98")
+}],
+"loop": false,
+"name": &"muzzle_up",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("99")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101")
+}],
+"loop": false,
+"name": &"muzzle_upleft",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("102")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104")
+}],
+"loop": false,
+"name": &"muzzle_upright",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("105")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113")
+}],
+"loop": false,
+"name": &"spawn_down",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("114")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122")
+}],
+"loop": false,
+"name": &"spawn_downleft",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("123")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131")
+}],
+"loop": false,
+"name": &"spawn_downright",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("132")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140")
+}],
+"loop": false,
+"name": &"spawn_left",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("141")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149")
+}],
+"loop": false,
+"name": &"spawn_right",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("150")
+}, {
+"duration": 1.0,
+"texture": ExtResource("151")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152")
+}, {
+"duration": 1.0,
+"texture": ExtResource("153")
+}, {
+"duration": 1.0,
+"texture": ExtResource("154")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155")
+}, {
+"duration": 1.0,
+"texture": ExtResource("156")
+}, {
+"duration": 1.0,
+"texture": ExtResource("157")
+}, {
+"duration": 1.0,
+"texture": ExtResource("158")
+}],
+"loop": false,
+"name": &"spawn_up",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("159")
+}, {
+"duration": 1.0,
+"texture": ExtResource("160")
+}, {
+"duration": 1.0,
+"texture": ExtResource("161")
+}, {
+"duration": 1.0,
+"texture": ExtResource("162")
+}, {
+"duration": 1.0,
+"texture": ExtResource("163")
+}, {
+"duration": 1.0,
+"texture": ExtResource("164")
+}, {
+"duration": 1.0,
+"texture": ExtResource("165")
+}, {
+"duration": 1.0,
+"texture": ExtResource("166")
+}, {
+"duration": 1.0,
+"texture": ExtResource("167")
+}],
+"loop": false,
+"name": &"spawn_upleft",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("168")
+}, {
+"duration": 1.0,
+"texture": ExtResource("169")
+}, {
+"duration": 1.0,
+"texture": ExtResource("170")
+}, {
+"duration": 1.0,
+"texture": ExtResource("171")
+}, {
+"duration": 1.0,
+"texture": ExtResource("172")
+}, {
+"duration": 1.0,
+"texture": ExtResource("173")
+}, {
+"duration": 1.0,
+"texture": ExtResource("174")
+}, {
+"duration": 1.0,
+"texture": ExtResource("175")
+}, {
+"duration": 1.0,
+"texture": ExtResource("176")
+}],
+"loop": false,
+"name": &"spawn_upright",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("177")
+}, {
+"duration": 1.0,
+"texture": ExtResource("178")
+}, {
+"duration": 1.0,
+"texture": ExtResource("179")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180")
+}, {
+"duration": 1.0,
+"texture": ExtResource("181")
+}, {
+"duration": 1.0,
+"texture": ExtResource("182")
+}],
+"loop": false,
+"name": &"break_enter_down",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("183")
+}, {
+"duration": 1.0,
+"texture": ExtResource("184")
+}, {
+"duration": 1.0,
+"texture": ExtResource("185")
+}, {
+"duration": 1.0,
+"texture": ExtResource("186")
+}, {
+"duration": 1.0,
+"texture": ExtResource("187")
+}, {
+"duration": 1.0,
+"texture": ExtResource("188")
+}],
+"loop": false,
+"name": &"break_enter_downleft",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("189")
+}, {
+"duration": 1.0,
+"texture": ExtResource("190")
+}, {
+"duration": 1.0,
+"texture": ExtResource("191")
+}, {
+"duration": 1.0,
+"texture": ExtResource("192")
+}, {
+"duration": 1.0,
+"texture": ExtResource("193")
+}, {
+"duration": 1.0,
+"texture": ExtResource("194")
+}],
+"loop": false,
+"name": &"break_enter_downright",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("195")
+}, {
+"duration": 1.0,
+"texture": ExtResource("196")
+}, {
+"duration": 1.0,
+"texture": ExtResource("197")
+}, {
+"duration": 1.0,
+"texture": ExtResource("198")
+}, {
+"duration": 1.0,
+"texture": ExtResource("199")
+}, {
+"duration": 1.0,
+"texture": ExtResource("200")
+}],
+"loop": false,
+"name": &"break_enter_left",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("201")
+}, {
+"duration": 1.0,
+"texture": ExtResource("202")
+}, {
+"duration": 1.0,
+"texture": ExtResource("203")
+}, {
+"duration": 1.0,
+"texture": ExtResource("204")
+}, {
+"duration": 1.0,
+"texture": ExtResource("205")
+}, {
+"duration": 1.0,
+"texture": ExtResource("206")
+}],
+"loop": false,
+"name": &"break_enter_right",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("207")
+}, {
+"duration": 1.0,
+"texture": ExtResource("208")
+}, {
+"duration": 1.0,
+"texture": ExtResource("209")
+}, {
+"duration": 1.0,
+"texture": ExtResource("210")
+}, {
+"duration": 1.0,
+"texture": ExtResource("211")
+}, {
+"duration": 1.0,
+"texture": ExtResource("212")
+}],
+"loop": false,
+"name": &"break_enter_up",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("213")
+}, {
+"duration": 1.0,
+"texture": ExtResource("214")
+}, {
+"duration": 1.0,
+"texture": ExtResource("215")
+}, {
+"duration": 1.0,
+"texture": ExtResource("216")
+}, {
+"duration": 1.0,
+"texture": ExtResource("217")
+}, {
+"duration": 1.0,
+"texture": ExtResource("218")
+}],
+"loop": false,
+"name": &"break_enter_upleft",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("219")
+}, {
+"duration": 1.0,
+"texture": ExtResource("220")
+}, {
+"duration": 1.0,
+"texture": ExtResource("221")
+}, {
+"duration": 1.0,
+"texture": ExtResource("222")
+}, {
+"duration": 1.0,
+"texture": ExtResource("223")
+}, {
+"duration": 1.0,
+"texture": ExtResource("224")
+}],
+"loop": false,
+"name": &"break_enter_upright",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("225")
+}, {
+"duration": 1.0,
+"texture": ExtResource("226")
+}, {
+"duration": 1.0,
+"texture": ExtResource("227")
+}, {
+"duration": 1.0,
+"texture": ExtResource("228")
+}],
+"loop": true,
+"name": &"break_hold_down",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("229")
+}, {
+"duration": 1.0,
+"texture": ExtResource("230")
+}, {
+"duration": 1.0,
+"texture": ExtResource("231")
+}, {
+"duration": 1.0,
+"texture": ExtResource("232")
+}],
+"loop": true,
+"name": &"break_hold_downleft",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("233")
+}, {
+"duration": 1.0,
+"texture": ExtResource("234")
+}, {
+"duration": 1.0,
+"texture": ExtResource("235")
+}, {
+"duration": 1.0,
+"texture": ExtResource("236")
+}],
+"loop": true,
+"name": &"break_hold_downright",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("237")
+}, {
+"duration": 1.0,
+"texture": ExtResource("238")
+}, {
+"duration": 1.0,
+"texture": ExtResource("239")
+}, {
+"duration": 1.0,
+"texture": ExtResource("240")
+}],
+"loop": true,
+"name": &"break_hold_left",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("241")
+}, {
+"duration": 1.0,
+"texture": ExtResource("242")
+}, {
+"duration": 1.0,
+"texture": ExtResource("243")
+}, {
+"duration": 1.0,
+"texture": ExtResource("244")
+}],
+"loop": true,
+"name": &"break_hold_right",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("245")
+}, {
+"duration": 1.0,
+"texture": ExtResource("246")
+}, {
+"duration": 1.0,
+"texture": ExtResource("247")
+}, {
+"duration": 1.0,
+"texture": ExtResource("248")
+}],
+"loop": true,
+"name": &"break_hold_up",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("249")
+}, {
+"duration": 1.0,
+"texture": ExtResource("250")
+}, {
+"duration": 1.0,
+"texture": ExtResource("251")
+}, {
+"duration": 1.0,
+"texture": ExtResource("252")
+}],
+"loop": true,
+"name": &"break_hold_upleft",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("253")
+}, {
+"duration": 1.0,
+"texture": ExtResource("254")
+}, {
+"duration": 1.0,
+"texture": ExtResource("255")
+}, {
+"duration": 1.0,
+"texture": ExtResource("256")
+}],
+"loop": true,
+"name": &"break_hold_upright",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("257")
+}, {
+"duration": 1.0,
+"texture": ExtResource("258")
+}, {
+"duration": 1.0,
+"texture": ExtResource("259")
+}, {
+"duration": 1.0,
+"texture": ExtResource("260")
+}, {
+"duration": 1.0,
+"texture": ExtResource("261")
+}, {
+"duration": 1.0,
+"texture": ExtResource("262")
+}],
+"loop": false,
+"name": &"break_recover_down",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("263")
+}, {
+"duration": 1.0,
+"texture": ExtResource("264")
+}, {
+"duration": 1.0,
+"texture": ExtResource("265")
+}, {
+"duration": 1.0,
+"texture": ExtResource("266")
+}, {
+"duration": 1.0,
+"texture": ExtResource("267")
+}, {
+"duration": 1.0,
+"texture": ExtResource("268")
+}],
+"loop": false,
+"name": &"break_recover_downleft",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("269")
+}, {
+"duration": 1.0,
+"texture": ExtResource("270")
+}, {
+"duration": 1.0,
+"texture": ExtResource("271")
+}, {
+"duration": 1.0,
+"texture": ExtResource("272")
+}, {
+"duration": 1.0,
+"texture": ExtResource("273")
+}, {
+"duration": 1.0,
+"texture": ExtResource("274")
+}],
+"loop": false,
+"name": &"break_recover_downright",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("275")
+}, {
+"duration": 1.0,
+"texture": ExtResource("276")
+}, {
+"duration": 1.0,
+"texture": ExtResource("277")
+}, {
+"duration": 1.0,
+"texture": ExtResource("278")
+}, {
+"duration": 1.0,
+"texture": ExtResource("279")
+}, {
+"duration": 1.0,
+"texture": ExtResource("280")
+}],
+"loop": false,
+"name": &"break_recover_left",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("281")
+}, {
+"duration": 1.0,
+"texture": ExtResource("282")
+}, {
+"duration": 1.0,
+"texture": ExtResource("283")
+}, {
+"duration": 1.0,
+"texture": ExtResource("284")
+}, {
+"duration": 1.0,
+"texture": ExtResource("285")
+}, {
+"duration": 1.0,
+"texture": ExtResource("286")
+}],
+"loop": false,
+"name": &"break_recover_right",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("287")
+}, {
+"duration": 1.0,
+"texture": ExtResource("288")
+}, {
+"duration": 1.0,
+"texture": ExtResource("289")
+}, {
+"duration": 1.0,
+"texture": ExtResource("290")
+}, {
+"duration": 1.0,
+"texture": ExtResource("291")
+}, {
+"duration": 1.0,
+"texture": ExtResource("292")
+}],
+"loop": false,
+"name": &"break_recover_up",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("293")
+}, {
+"duration": 1.0,
+"texture": ExtResource("294")
+}, {
+"duration": 1.0,
+"texture": ExtResource("295")
+}, {
+"duration": 1.0,
+"texture": ExtResource("296")
+}, {
+"duration": 1.0,
+"texture": ExtResource("297")
+}, {
+"duration": 1.0,
+"texture": ExtResource("298")
+}],
+"loop": false,
+"name": &"break_recover_upleft",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("299")
+}, {
+"duration": 1.0,
+"texture": ExtResource("300")
+}, {
+"duration": 1.0,
+"texture": ExtResource("301")
+}, {
+"duration": 1.0,
+"texture": ExtResource("302")
+}, {
+"duration": 1.0,
+"texture": ExtResource("303")
+}, {
+"duration": 1.0,
+"texture": ExtResource("304")
+}],
+"loop": false,
+"name": &"break_recover_upright",
+"speed": 12.0
+}]

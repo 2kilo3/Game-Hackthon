@@ -1,0 +1,42 @@
+[gd_scene load_steps=12 format=3]
+
+[ext_resource type="Script" path="res://scripts/future_boss.gd" id="1_boss"]
+[ext_resource type="SpriteFrames" path="res://resources/boss_frames.tres" id="2_frames"]
+[ext_resource type="Script" path="res://scripts/dummy_bars.gd" id="3_bars"]
+[ext_resource type="AudioStream" path="res://assets/audio/boss_shoot.mp3" id="4_shoot"]
+[ext_resource type="AudioStream" path="res://assets/audio/boss_block.mp3" id="5_block"]
+[ext_resource type="AudioStream" path="res://assets/audio/boss_charge.mp3" id="6_charge"]
+[ext_resource type="AudioStream" path="res://assets/audio/shield_bash.mp3" id="7_bash"]
+
+[sub_resource type="RectangleShape2D" id="Rect_boss"]
+size = Vector2(46, 46)
+
+[node name="FutureBoss" type="CharacterBody2D"]
+collision_layer = 2
+collision_mask = 1
+script = ExtResource("1_boss")
+
+[node name="Sprite" type="AnimatedSprite2D" parent="."]
+sprite_frames = ExtResource("2_frames")
+animation = &"shield_walk_S"
+offset = Vector2(0, -48)
+centered = true
+
+[node name="Bars" type="Node2D" parent="."]
+script = ExtResource("3_bars")
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+position = Vector2(0, -18)
+shape = SubResource("Rect_boss")
+
+[node name="ShootSfx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_shoot")
+
+[node name="BlockSfx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_block")
+
+[node name="ChargeSfx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_charge")
+
+[node name="BashSfx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7_bash")

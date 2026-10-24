@@ -1,0 +1,2370 @@
+[gd_scene load_steps=11 format=3]
+
+[ext_resource type="Script" path="res://scripts/map_root.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/maps/future/tiles/generated-image-3-png.png" id="2_tex"]
+[ext_resource type="Texture2D" path="res://assets/maps/future/tiles/generated-image-3-1-png.png" id="3_tex"]
+[ext_resource type="Texture2D" path="res://assets/maps/future/tiles/png.png" id="4_tex"]
+[ext_resource type="Texture2D" path="res://assets/maps/future/tiles/image-1792563057425-png.png" id="5_tex"]
+[ext_resource type="Texture2D" path="res://assets/maps/future/tiles/png-1.png" id="6_tex"]
+[ext_resource type="Texture2D" path="res://assets/maps/future/tiles/image-1792563157459-a927snk9sc8-png.png" id="7_tex"]
+[ext_resource type="Texture2D" path="res://assets/maps/future/objects/upload-wall-1792564502636-tm7fcdtpmpj-generated-image-2-png.png" id="8_tex"]
+[ext_resource type="Texture2D" path="res://assets/maps/future/objects/upload-wall-1792564604344-s4d5ivl3gt-image-1792564547946-ww4g30lgza-png.png" id="9_tex"]
+[ext_resource type="Texture2D" path="res://assets/maps/future/objects/upload-wall-1792565070255-e1yagw2h09-generated-image-2-1-png.png" id="10_tex"]
+
+[node name="Map" type="Node2D"]
+script = ExtResource("1_script")
+meowa_map_json_path = "res://meowa-map.json"
+map_name = "Isometric Map Editor"
+map_type = "isometric"
+map_width_tiles = 24
+map_height_tiles = 16
+tile_size = 64
+pixel_size = Vector2(2688.0, 1472.0)
+
+[node name="1_map_layer" type="Node2D" parent="."]
+z_index = 0
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_layer_name = "map layer"
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_0_4" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(768.0, 192.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 0.0
+metadata/meowa_row = 4.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792563099241_9v31ki0jp8_image_1792563057425_png_0_5" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(704.0, 224.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("5_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792563099241-9v31ki0jp8:image-1792563057425.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 0.0
+metadata/meowa_row = 5.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_0_6" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(640.0, 256.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 0.0
+metadata/meowa_row = 6.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792563188650_34o85inpaq2_image_1792563157459_a927snk9sc8_png_0_7" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(576.0, 288.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("7_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792563188650-34o85inpaq2:image-1792563157459-a927snk9sc8.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 0.0
+metadata/meowa_row = 7.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_0_8" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(512.0, 320.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 0.0
+metadata/meowa_row = 8.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792563099241_9v31ki0jp8_image_1792563057425_png_0_9" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(448.0, 352.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("5_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792563099241-9v31ki0jp8:image-1792563057425.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 0.0
+metadata/meowa_row = 9.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_0_10" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(384.0, 384.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 0.0
+metadata/meowa_row = 10.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_1_4" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(832.0, 224.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 1.0
+metadata/meowa_row = 4.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792563099241_9v31ki0jp8_image_1792563057425_png_1_5" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(768.0, 256.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("5_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792563099241-9v31ki0jp8:image-1792563057425.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 1.0
+metadata/meowa_row = 5.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_1_6" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(704.0, 288.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 1.0
+metadata/meowa_row = 6.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792563188650_34o85inpaq2_image_1792563157459_a927snk9sc8_png_1_7" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(640.0, 320.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("7_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792563188650-34o85inpaq2:image-1792563157459-a927snk9sc8.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 1.0
+metadata/meowa_row = 7.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_1_8" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(576.0, 352.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 1.0
+metadata/meowa_row = 8.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792563099241_9v31ki0jp8_image_1792563057425_png_1_9" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(512.0, 384.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("5_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792563099241-9v31ki0jp8:image-1792563057425.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 1.0
+metadata/meowa_row = 9.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_1_10" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(448.0, 416.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 1.0
+metadata/meowa_row = 10.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_2_4" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(896.0, 256.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 2.0
+metadata/meowa_row = 4.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792563099241_9v31ki0jp8_image_1792563057425_png_2_5" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(832.0, 288.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("5_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792563099241-9v31ki0jp8:image-1792563057425.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 2.0
+metadata/meowa_row = 5.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_2_6" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(768.0, 320.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 2.0
+metadata/meowa_row = 6.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792563188650_34o85inpaq2_image_1792563157459_a927snk9sc8_png_2_7" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(704.0, 352.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("7_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792563188650-34o85inpaq2:image-1792563157459-a927snk9sc8.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 2.0
+metadata/meowa_row = 7.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_2_8" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(640.0, 384.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 2.0
+metadata/meowa_row = 8.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792563099241_9v31ki0jp8_image_1792563057425_png_2_9" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(576.0, 416.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("5_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792563099241-9v31ki0jp8:image-1792563057425.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 2.0
+metadata/meowa_row = 9.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_2_10" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(512.0, 448.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 2.0
+metadata/meowa_row = 10.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_3_4" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(960.0, 288.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 3.0
+metadata/meowa_row = 4.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792563099241_9v31ki0jp8_image_1792563057425_png_3_5" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(896.0, 320.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("5_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792563099241-9v31ki0jp8:image-1792563057425.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 3.0
+metadata/meowa_row = 5.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_3_6" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(832.0, 352.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 3.0
+metadata/meowa_row = 6.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792563188650_34o85inpaq2_image_1792563157459_a927snk9sc8_png_3_7" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(768.0, 384.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("7_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792563188650-34o85inpaq2:image-1792563157459-a927snk9sc8.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 3.0
+metadata/meowa_row = 7.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_3_8" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(704.0, 416.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 3.0
+metadata/meowa_row = 8.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792563099241_9v31ki0jp8_image_1792563057425_png_3_9" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(640.0, 448.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("5_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792563099241-9v31ki0jp8:image-1792563057425.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 3.0
+metadata/meowa_row = 9.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_3_10" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(576.0, 480.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 3.0
+metadata/meowa_row = 10.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_4_4" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1024.0, 320.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 4.0
+metadata/meowa_row = 4.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792563099241_9v31ki0jp8_image_1792563057425_png_4_5" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(960.0, 352.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("5_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792563099241-9v31ki0jp8:image-1792563057425.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 4.0
+metadata/meowa_row = 5.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_4_6" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(896.0, 384.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 4.0
+metadata/meowa_row = 6.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792563188650_34o85inpaq2_image_1792563157459_a927snk9sc8_png_4_7" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(832.0, 416.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("7_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792563188650-34o85inpaq2:image-1792563157459-a927snk9sc8.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 4.0
+metadata/meowa_row = 7.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_4_8" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(768.0, 448.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 4.0
+metadata/meowa_row = 8.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792563099241_9v31ki0jp8_image_1792563057425_png_4_9" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(704.0, 480.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("5_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792563099241-9v31ki0jp8:image-1792563057425.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 4.0
+metadata/meowa_row = 9.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_4_10" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(640.0, 512.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 4.0
+metadata/meowa_row = 10.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_5_4" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1088.0, 352.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 5.0
+metadata/meowa_row = 4.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792563099241_9v31ki0jp8_image_1792563057425_png_5_5" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1024.0, 384.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("5_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792563099241-9v31ki0jp8:image-1792563057425.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 5.0
+metadata/meowa_row = 5.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_5_6" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(960.0, 416.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 5.0
+metadata/meowa_row = 6.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792563188650_34o85inpaq2_image_1792563157459_a927snk9sc8_png_5_7" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(896.0, 448.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("7_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792563188650-34o85inpaq2:image-1792563157459-a927snk9sc8.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 5.0
+metadata/meowa_row = 7.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_5_8" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(832.0, 480.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 5.0
+metadata/meowa_row = 8.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792563099241_9v31ki0jp8_image_1792563057425_png_5_9" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(768.0, 512.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("5_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792563099241-9v31ki0jp8:image-1792563057425.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 5.0
+metadata/meowa_row = 9.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_5_10" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(704.0, 544.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 5.0
+metadata/meowa_row = 10.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_6_0" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1408.0, 256.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 6.0
+metadata/meowa_row = 0.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_6_1" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1344.0, 288.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 6.0
+metadata/meowa_row = 1.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_6_2" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1280.0, 320.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 6.0
+metadata/meowa_row = 2.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_6_3" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1216.0, 352.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 6.0
+metadata/meowa_row = 3.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_6_4" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1152.0, 384.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 6.0
+metadata/meowa_row = 4.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792563099241_9v31ki0jp8_image_1792563057425_png_6_5" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1088.0, 416.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("5_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792563099241-9v31ki0jp8:image-1792563057425.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 6.0
+metadata/meowa_row = 5.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_6_6" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1024.0, 448.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 6.0
+metadata/meowa_row = 6.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792563188650_34o85inpaq2_image_1792563157459_a927snk9sc8_png_6_7" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(960.0, 480.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("7_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792563188650-34o85inpaq2:image-1792563157459-a927snk9sc8.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 6.0
+metadata/meowa_row = 7.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_6_8" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(896.0, 512.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 6.0
+metadata/meowa_row = 8.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792563099241_9v31ki0jp8_image_1792563057425_png_6_9" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(832.0, 544.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("5_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792563099241-9v31ki0jp8:image-1792563057425.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 6.0
+metadata/meowa_row = 9.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_6_10" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(768.0, 576.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 6.0
+metadata/meowa_row = 10.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_6_11" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(704.0, 608.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 6.0
+metadata/meowa_row = 11.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_6_12" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(640.0, 640.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 6.0
+metadata/meowa_row = 12.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_6_13" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(576.0, 672.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 6.0
+metadata/meowa_row = 13.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_6_14" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(512.0, 704.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 6.0
+metadata/meowa_row = 14.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_6_15" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(448.0, 736.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 6.0
+metadata/meowa_row = 15.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792562081345_s5nr2o4g0tb_generated_image_3_1_png_7_0" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1472.0, 288.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("3_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792562081345-s5nr2o4g0tb:generated-image-3 (1).png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 7.0
+metadata/meowa_row = 0.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792562081345_s5nr2o4g0tb_generated_image_3_1_png_7_1" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1408.0, 320.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("3_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792562081345-s5nr2o4g0tb:generated-image-3 (1).png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 7.0
+metadata/meowa_row = 1.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792562081345_s5nr2o4g0tb_generated_image_3_1_png_7_2" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1344.0, 352.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("3_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792562081345-s5nr2o4g0tb:generated-image-3 (1).png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 7.0
+metadata/meowa_row = 2.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792562081345_s5nr2o4g0tb_generated_image_3_1_png_7_3" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1280.0, 384.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("3_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792562081345-s5nr2o4g0tb:generated-image-3 (1).png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 7.0
+metadata/meowa_row = 3.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792562081345_s5nr2o4g0tb_generated_image_3_1_png_7_4" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1216.0, 416.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("3_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792562081345-s5nr2o4g0tb:generated-image-3 (1).png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 7.0
+metadata/meowa_row = 4.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973441_pn60x47ube9_png_7_5" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1152.0, 448.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("6_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973441-pn60x47ube9:科技转折点.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 7.0
+metadata/meowa_row = 5.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_7_6" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1088.0, 480.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 7.0
+metadata/meowa_row = 6.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792563188650_34o85inpaq2_image_1792563157459_a927snk9sc8_png_7_7" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1024.0, 512.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("7_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792563188650-34o85inpaq2:image-1792563157459-a927snk9sc8.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 7.0
+metadata/meowa_row = 7.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_7_8" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(960.0, 544.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 7.0
+metadata/meowa_row = 8.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973441_pn60x47ube9_png_7_9" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(896.0, 576.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("6_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973441-pn60x47ube9:科技转折点.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 7.0
+metadata/meowa_row = 9.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792562081345_s5nr2o4g0tb_generated_image_3_1_png_7_10" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(832.0, 608.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("3_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792562081345-s5nr2o4g0tb:generated-image-3 (1).png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 7.0
+metadata/meowa_row = 10.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792562081345_s5nr2o4g0tb_generated_image_3_1_png_7_11" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(768.0, 640.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("3_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792562081345-s5nr2o4g0tb:generated-image-3 (1).png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 7.0
+metadata/meowa_row = 11.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792562081345_s5nr2o4g0tb_generated_image_3_1_png_7_12" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(704.0, 672.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("3_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792562081345-s5nr2o4g0tb:generated-image-3 (1).png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 7.0
+metadata/meowa_row = 12.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792562081345_s5nr2o4g0tb_generated_image_3_1_png_7_13" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(640.0, 704.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("3_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792562081345-s5nr2o4g0tb:generated-image-3 (1).png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 7.0
+metadata/meowa_row = 13.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792562081345_s5nr2o4g0tb_generated_image_3_1_png_7_14" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(576.0, 736.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("3_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792562081345-s5nr2o4g0tb:generated-image-3 (1).png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 7.0
+metadata/meowa_row = 14.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792562081345_s5nr2o4g0tb_generated_image_3_1_png_7_15" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(512.0, 768.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("3_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792562081345-s5nr2o4g0tb:generated-image-3 (1).png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 7.0
+metadata/meowa_row = 15.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_8_0" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1536.0, 320.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 8.0
+metadata/meowa_row = 0.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_8_1" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1472.0, 352.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 8.0
+metadata/meowa_row = 1.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_8_2" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1408.0, 384.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 8.0
+metadata/meowa_row = 2.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_8_3" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1344.0, 416.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 8.0
+metadata/meowa_row = 3.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_8_4" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1280.0, 448.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 8.0
+metadata/meowa_row = 4.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_8_5" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1216.0, 480.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 8.0
+metadata/meowa_row = 5.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_8_6" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1152.0, 512.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 8.0
+metadata/meowa_row = 6.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792563188650_34o85inpaq2_image_1792563157459_a927snk9sc8_png_8_7" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1088.0, 544.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("7_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792563188650-34o85inpaq2:image-1792563157459-a927snk9sc8.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 8.0
+metadata/meowa_row = 7.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_8_8" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1024.0, 576.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 8.0
+metadata/meowa_row = 8.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_8_9" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(960.0, 608.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 8.0
+metadata/meowa_row = 9.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_8_10" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(896.0, 640.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 8.0
+metadata/meowa_row = 10.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_8_11" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(832.0, 672.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 8.0
+metadata/meowa_row = 11.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_8_12" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(768.0, 704.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 8.0
+metadata/meowa_row = 12.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_8_13" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(704.0, 736.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 8.0
+metadata/meowa_row = 13.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_8_14" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(640.0, 768.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 8.0
+metadata/meowa_row = 14.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_8_15" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(576.0, 800.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 8.0
+metadata/meowa_row = 15.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973442_2wxdj0piyul_png_9_0" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1600.0, 352.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("4_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973442-2wxdj0piyul:未来道路.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 9.0
+metadata/meowa_row = 0.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973442_2wxdj0piyul_png_9_1" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1536.0, 384.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("4_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973442-2wxdj0piyul:未来道路.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 9.0
+metadata/meowa_row = 1.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973442_2wxdj0piyul_png_9_2" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1472.0, 416.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("4_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973442-2wxdj0piyul:未来道路.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 9.0
+metadata/meowa_row = 2.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973442_2wxdj0piyul_png_9_3" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1408.0, 448.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("4_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973442-2wxdj0piyul:未来道路.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 9.0
+metadata/meowa_row = 3.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973442_2wxdj0piyul_png_9_4" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1344.0, 480.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("4_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973442-2wxdj0piyul:未来道路.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 9.0
+metadata/meowa_row = 4.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973442_2wxdj0piyul_png_9_5" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1280.0, 512.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("4_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973442-2wxdj0piyul:未来道路.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 9.0
+metadata/meowa_row = 5.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973442_2wxdj0piyul_png_9_6" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1216.0, 544.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("4_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973442-2wxdj0piyul:未来道路.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 9.0
+metadata/meowa_row = 6.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973441_pn60x47ube9_png_9_7" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1152.0, 576.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("6_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973441-pn60x47ube9:科技转折点.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 9.0
+metadata/meowa_row = 7.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973442_2wxdj0piyul_png_9_8" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1088.0, 608.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("4_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973442-2wxdj0piyul:未来道路.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 9.0
+metadata/meowa_row = 8.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973442_2wxdj0piyul_png_9_9" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1024.0, 640.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("4_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973442-2wxdj0piyul:未来道路.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 9.0
+metadata/meowa_row = 9.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973442_2wxdj0piyul_png_9_10" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(960.0, 672.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("4_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973442-2wxdj0piyul:未来道路.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 9.0
+metadata/meowa_row = 10.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973442_2wxdj0piyul_png_9_11" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(896.0, 704.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("4_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973442-2wxdj0piyul:未来道路.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 9.0
+metadata/meowa_row = 11.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973442_2wxdj0piyul_png_9_12" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(832.0, 736.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("4_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973442-2wxdj0piyul:未来道路.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 9.0
+metadata/meowa_row = 12.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973442_2wxdj0piyul_png_9_13" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(768.0, 768.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("4_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973442-2wxdj0piyul:未来道路.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 9.0
+metadata/meowa_row = 13.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973442_2wxdj0piyul_png_9_14" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(704.0, 800.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("4_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973442-2wxdj0piyul:未来道路.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 9.0
+metadata/meowa_row = 14.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973442_2wxdj0piyul_png_9_15" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(640.0, 832.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("4_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973442-2wxdj0piyul:未来道路.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 9.0
+metadata/meowa_row = 15.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_10_0" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1664.0, 384.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 10.0
+metadata/meowa_row = 0.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_10_1" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1600.0, 416.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 10.0
+metadata/meowa_row = 1.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_10_2" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1536.0, 448.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 10.0
+metadata/meowa_row = 2.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_10_3" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1472.0, 480.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 10.0
+metadata/meowa_row = 3.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_10_4" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1408.0, 512.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 10.0
+metadata/meowa_row = 4.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_10_5" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1344.0, 544.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 10.0
+metadata/meowa_row = 5.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_10_6" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1280.0, 576.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 10.0
+metadata/meowa_row = 6.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_10_7" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1216.0, 608.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 10.0
+metadata/meowa_row = 7.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_10_8" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1152.0, 640.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 10.0
+metadata/meowa_row = 8.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_10_9" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1088.0, 672.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 10.0
+metadata/meowa_row = 9.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_10_10" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1024.0, 704.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 10.0
+metadata/meowa_row = 10.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_10_11" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(960.0, 736.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 10.0
+metadata/meowa_row = 11.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_10_12" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(896.0, 768.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 10.0
+metadata/meowa_row = 12.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_10_13" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(832.0, 800.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 10.0
+metadata/meowa_row = 13.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_10_14" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(768.0, 832.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 10.0
+metadata/meowa_row = 14.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_10_15" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(704.0, 864.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 10.0
+metadata/meowa_row = 15.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792562081345_s5nr2o4g0tb_generated_image_3_1_png_11_0" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1728.0, 416.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("3_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792562081345-s5nr2o4g0tb:generated-image-3 (1).png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 11.0
+metadata/meowa_row = 0.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792562081345_s5nr2o4g0tb_generated_image_3_1_png_11_1" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1664.0, 448.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("3_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792562081345-s5nr2o4g0tb:generated-image-3 (1).png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 11.0
+metadata/meowa_row = 1.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792562081345_s5nr2o4g0tb_generated_image_3_1_png_11_2" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1600.0, 480.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("3_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792562081345-s5nr2o4g0tb:generated-image-3 (1).png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 11.0
+metadata/meowa_row = 2.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792562081345_s5nr2o4g0tb_generated_image_3_1_png_11_3" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1536.0, 512.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("3_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792562081345-s5nr2o4g0tb:generated-image-3 (1).png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 11.0
+metadata/meowa_row = 3.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792562081345_s5nr2o4g0tb_generated_image_3_1_png_11_4" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1472.0, 544.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("3_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792562081345-s5nr2o4g0tb:generated-image-3 (1).png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 11.0
+metadata/meowa_row = 4.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792562081345_s5nr2o4g0tb_generated_image_3_1_png_11_5" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1408.0, 576.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("3_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792562081345-s5nr2o4g0tb:generated-image-3 (1).png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 11.0
+metadata/meowa_row = 5.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792562081345_s5nr2o4g0tb_generated_image_3_1_png_11_6" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1344.0, 608.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("3_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792562081345-s5nr2o4g0tb:generated-image-3 (1).png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 11.0
+metadata/meowa_row = 6.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792562081345_s5nr2o4g0tb_generated_image_3_1_png_11_7" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1280.0, 640.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("3_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792562081345-s5nr2o4g0tb:generated-image-3 (1).png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 11.0
+metadata/meowa_row = 7.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792562081345_s5nr2o4g0tb_generated_image_3_1_png_11_8" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1216.0, 672.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("3_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792562081345-s5nr2o4g0tb:generated-image-3 (1).png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 11.0
+metadata/meowa_row = 8.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792562081345_s5nr2o4g0tb_generated_image_3_1_png_11_9" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1152.0, 704.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("3_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792562081345-s5nr2o4g0tb:generated-image-3 (1).png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 11.0
+metadata/meowa_row = 9.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792562081345_s5nr2o4g0tb_generated_image_3_1_png_11_10" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1088.0, 736.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("3_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792562081345-s5nr2o4g0tb:generated-image-3 (1).png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 11.0
+metadata/meowa_row = 10.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792562081345_s5nr2o4g0tb_generated_image_3_1_png_11_11" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1024.0, 768.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("3_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792562081345-s5nr2o4g0tb:generated-image-3 (1).png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 11.0
+metadata/meowa_row = 11.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792562081345_s5nr2o4g0tb_generated_image_3_1_png_11_12" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(960.0, 800.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("3_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792562081345-s5nr2o4g0tb:generated-image-3 (1).png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 11.0
+metadata/meowa_row = 12.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792562081345_s5nr2o4g0tb_generated_image_3_1_png_11_13" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(896.0, 832.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("3_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792562081345-s5nr2o4g0tb:generated-image-3 (1).png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 11.0
+metadata/meowa_row = 13.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792562081345_s5nr2o4g0tb_generated_image_3_1_png_11_14" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(832.0, 864.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("3_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792562081345-s5nr2o4g0tb:generated-image-3 (1).png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 11.0
+metadata/meowa_row = 14.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792562081345_s5nr2o4g0tb_generated_image_3_1_png_11_15" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(768.0, 896.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("3_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792562081345-s5nr2o4g0tb:generated-image-3 (1).png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 11.0
+metadata/meowa_row = 15.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_12_0" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1792.0, 448.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 12.0
+metadata/meowa_row = 0.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_12_1" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1728.0, 480.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 12.0
+metadata/meowa_row = 1.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_12_2" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1664.0, 512.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 12.0
+metadata/meowa_row = 2.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_12_3" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1600.0, 544.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 12.0
+metadata/meowa_row = 3.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_12_4" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1536.0, 576.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 12.0
+metadata/meowa_row = 4.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_12_5" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1472.0, 608.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 12.0
+metadata/meowa_row = 5.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_12_6" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1408.0, 640.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 12.0
+metadata/meowa_row = 6.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_12_7" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1344.0, 672.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 12.0
+metadata/meowa_row = 7.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_12_8" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1280.0, 704.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 12.0
+metadata/meowa_row = 8.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_12_9" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1216.0, 736.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 12.0
+metadata/meowa_row = 9.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_12_10" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1152.0, 768.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 12.0
+metadata/meowa_row = 10.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_12_11" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1088.0, 800.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 12.0
+metadata/meowa_row = 11.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_12_12" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(1024.0, 832.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 12.0
+metadata/meowa_row = 12.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_12_13" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(960.0, 864.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 12.0
+metadata/meowa_row = 13.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_12_14" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(896.0, 896.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 12.0
+metadata/meowa_row = 14.0
+metadata/meowa_layer_index = 0.0
+
+[node name="tile_upload_tileset_1792561973440_0c77casyzt2h_generated_image_3_png_12_15" type="Sprite2D" parent="1_map_layer"]
+position = Vector2(832.0, 928.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("2_tex")
+metadata/meowa_kind = "tile"
+metadata/meowa_tileset_id = "upload-tileset:1792561973440-0c77casyzt2h:generated-image-3.png"
+metadata/meowa_layer_id = "map-layer-1"
+metadata/meowa_column = 12.0
+metadata/meowa_row = 15.0
+metadata/meowa_layer_index = 0.0
+
+[node name="2_object_layer" type="Node2D" parent="."]
+z_index = 1
+metadata/meowa_layer_id = "map-object-layer"
+metadata/meowa_layer_name = "object layer"
+
+[node name="3_wall_layer" type="Node2D" parent="."]
+z_index = 2
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_name = "wall layer"
+
+[node name="object_image_1792564547946_ww4g30lgza_png" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(832.0, 160.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("9_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564604344-s4d5ivl3gt:image-1792564547946-ww4g30lgza.png"
+metadata/meowa_object_placement_id = "map-object-1792565112932-w79gbycx3za"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_image_1792564547946_ww4g30lgza_png_1" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(832.0, 160.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("9_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564604344-s4d5ivl3gt:image-1792564547946-ww4g30lgza.png"
+metadata/meowa_object_placement_id = "map-object-1792565113462-t2i4qtjxyo"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_image_1792564547946_ww4g30lgza_png_2" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(448.0, 352.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("9_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564604344-s4d5ivl3gt:image-1792564547946-ww4g30lgza.png"
+metadata/meowa_object_placement_id = "map-object-1792565133020-dsek1sj0sw7"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_image_1792564547946_ww4g30lgza_png_3" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(896.0, 192.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("9_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564604344-s4d5ivl3gt:image-1792564547946-ww4g30lgza.png"
+metadata/meowa_object_placement_id = "map-object-1792565112429-3gfh35bs94a"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_image_1792564547946_ww4g30lgza_png_4" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(512.0, 384.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("9_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564604344-s4d5ivl3gt:image-1792564547946-ww4g30lgza.png"
+metadata/meowa_object_placement_id = "map-object-1792565134879-4o8r03dxjjs"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_image_1792564547946_ww4g30lgza_png_5" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(960.0, 224.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("9_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564604344-s4d5ivl3gt:image-1792564547946-ww4g30lgza.png"
+metadata/meowa_object_placement_id = "map-object-1792565111771-ib5yhppn6hg"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_image_1792564547946_ww4g30lgza_png_6" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(576.0, 416.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("9_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564604344-s4d5ivl3gt:image-1792564547946-ww4g30lgza.png"
+metadata/meowa_object_placement_id = "map-object-1792565134262-zogycvb4io"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_image_1792564547946_ww4g30lgza_png_7" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(1024.0, 256.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("9_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564604344-s4d5ivl3gt:image-1792564547946-ww4g30lgza.png"
+metadata/meowa_object_placement_id = "map-object-1792565108689-gppry6o6pj"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_image_1792564547946_ww4g30lgza_png_8" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(640.0, 448.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("9_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564604344-s4d5ivl3gt:image-1792564547946-ww4g30lgza.png"
+metadata/meowa_object_placement_id = "map-object-1792565135773-8hqoq9xsckk"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_image_1792564547946_ww4g30lgza_png_9" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(1088.0, 288.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("9_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564604344-s4d5ivl3gt:image-1792564547946-ww4g30lgza.png"
+metadata/meowa_object_placement_id = "map-object-1792565108022-x420hyl6vp"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_image_1792564547946_ww4g30lgza_png_10" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(704.0, 480.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("9_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564604344-s4d5ivl3gt:image-1792564547946-ww4g30lgza.png"
+metadata/meowa_object_placement_id = "map-object-1792565137223-6agmy172iae"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_generated_image_2_png" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(1344.0, 224.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("8_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564502636-tm7fcdtpmpj:generated-image-2.png"
+metadata/meowa_object_placement_id = "map-object-1792565101284-pby21dq0fil"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_generated_image_2_png_1" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(1344.0, 224.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("8_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564502636-tm7fcdtpmpj:generated-image-2.png"
+metadata/meowa_object_placement_id = "map-object-1792565102093-anxtn8ntv1"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_generated_image_2_png_2" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(1344.0, 224.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("8_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564502636-tm7fcdtpmpj:generated-image-2.png"
+metadata/meowa_object_placement_id = "map-object-1792565102690-k5q41pprs2"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_generated_image_2_png_3" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(1280.0, 256.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("8_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564502636-tm7fcdtpmpj:generated-image-2.png"
+metadata/meowa_object_placement_id = "map-object-1792565100707-zo012wl5orh"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_generated_image_2_png_4" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(1216.0, 288.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("8_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564502636-tm7fcdtpmpj:generated-image-2.png"
+metadata/meowa_object_placement_id = "map-object-1792565099187-amf8rgh31mh"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_generated_image_2_1_png" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(1152.0, 320.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("10_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792565070255-e1yagw2h09:generated-image-2 (1).png"
+metadata/meowa_object_placement_id = "map-object-1792565084510-z0p16uprixp"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_generated_image_2_png_5" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(704.0, 544.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("8_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564502636-tm7fcdtpmpj:generated-image-2.png"
+metadata/meowa_object_placement_id = "map-object-1792564637561-hulcduqumxu"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_generated_image_2_png_6" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(640.0, 576.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("8_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564502636-tm7fcdtpmpj:generated-image-2.png"
+metadata/meowa_object_placement_id = "map-object-1792564635690-9iy0gi2pn4g"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_generated_image_2_png_7" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(576.0, 608.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("8_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564502636-tm7fcdtpmpj:generated-image-2.png"
+metadata/meowa_object_placement_id = "map-object-1792564635183-wputt1cktdm"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_generated_image_2_png_8" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(512.0, 640.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("8_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564502636-tm7fcdtpmpj:generated-image-2.png"
+metadata/meowa_object_placement_id = "map-object-1792564634760-eluy4hjj3cp"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_generated_image_2_png_9" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(448.0, 672.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("8_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564502636-tm7fcdtpmpj:generated-image-2.png"
+metadata/meowa_object_placement_id = "map-object-1792564634217-w84dtf5ho1"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_generated_image_2_png_10" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(384.0, 704.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("8_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564502636-tm7fcdtpmpj:generated-image-2.png"
+metadata/meowa_object_placement_id = "map-object-1792564633252-ibzl6mafwib"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_generated_image_2_png_11" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(1728.0, 416.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("8_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564502636-tm7fcdtpmpj:generated-image-2.png"
+metadata/meowa_object_placement_id = "map-object-1792581916981-hbfntbu31ul"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_generated_image_2_png_12" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(1728.0, 416.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("8_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564502636-tm7fcdtpmpj:generated-image-2.png"
+metadata/meowa_object_placement_id = "map-object-1792581917507-5mzjn5mshz2"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_generated_image_2_png_13" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(1728.0, 416.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("8_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564502636-tm7fcdtpmpj:generated-image-2.png"
+metadata/meowa_object_placement_id = "map-object-1792581918077-z479oolycx"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_generated_image_2_png_14" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(1728.0, 416.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("8_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564502636-tm7fcdtpmpj:generated-image-2.png"
+metadata/meowa_object_placement_id = "map-object-1792581919290-7b2xdcq0tan"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_generated_image_2_png_15" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(1728.0, 416.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("8_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564502636-tm7fcdtpmpj:generated-image-2.png"
+metadata/meowa_object_placement_id = "map-object-1792581919620-65d1ys6khb"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_generated_image_2_png_16" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(1664.0, 448.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("8_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564502636-tm7fcdtpmpj:generated-image-2.png"
+metadata/meowa_object_placement_id = "map-object-1792581916401-maurykr6x8j"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_generated_image_2_png_17" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(1600.0, 480.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("8_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564502636-tm7fcdtpmpj:generated-image-2.png"
+metadata/meowa_object_placement_id = "map-object-1792581915721-jya1kwezpn"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_generated_image_2_png_18" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(1536.0, 512.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("8_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564502636-tm7fcdtpmpj:generated-image-2.png"
+metadata/meowa_object_placement_id = "map-object-1792581914697-r540mrjdvg"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_generated_image_2_png_19" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(1536.0, 512.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("8_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564502636-tm7fcdtpmpj:generated-image-2.png"
+metadata/meowa_object_placement_id = "map-object-1792581915283-srwuubl1p9"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_generated_image_2_png_20" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(1472.0, 544.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("8_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564502636-tm7fcdtpmpj:generated-image-2.png"
+metadata/meowa_object_placement_id = "map-object-1792581914091-br3kntrwseb"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_generated_image_2_png_21" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(1408.0, 576.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("8_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564502636-tm7fcdtpmpj:generated-image-2.png"
+metadata/meowa_object_placement_id = "map-object-1792581913524-643pjvzltco"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_generated_image_2_png_22" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(1344.0, 608.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("8_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564502636-tm7fcdtpmpj:generated-image-2.png"
+metadata/meowa_object_placement_id = "map-object-1792581912875-lifn6bdass"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_generated_image_2_png_23" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(1280.0, 640.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("8_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564502636-tm7fcdtpmpj:generated-image-2.png"
+metadata/meowa_object_placement_id = "map-object-1792581912120-qyhjt8nj1n"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_generated_image_2_png_24" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(1216.0, 672.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("8_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564502636-tm7fcdtpmpj:generated-image-2.png"
+metadata/meowa_object_placement_id = "map-object-1792581911531-xj302mwrcbn"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_generated_image_2_png_25" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(1152.0, 704.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("8_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564502636-tm7fcdtpmpj:generated-image-2.png"
+metadata/meowa_object_placement_id = "map-object-1792581911042-nqzbq98i4o"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_generated_image_2_png_26" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(1088.0, 736.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("8_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564502636-tm7fcdtpmpj:generated-image-2.png"
+metadata/meowa_object_placement_id = "map-object-1792581910574-c2nvx4ws1sk"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_generated_image_2_png_27" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(1024.0, 768.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("8_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564502636-tm7fcdtpmpj:generated-image-2.png"
+metadata/meowa_object_placement_id = "map-object-1792581910010-ddoiea8m8xg"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_generated_image_2_png_28" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(960.0, 800.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("8_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564502636-tm7fcdtpmpj:generated-image-2.png"
+metadata/meowa_object_placement_id = "map-object-1792581909534-egu7vzeo3sa"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_generated_image_2_png_29" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(896.0, 832.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("8_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564502636-tm7fcdtpmpj:generated-image-2.png"
+metadata/meowa_object_placement_id = "map-object-1792581908379-sbwbscl15x"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_generated_image_2_png_30" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(832.0, 864.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("8_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564502636-tm7fcdtpmpj:generated-image-2.png"
+metadata/meowa_object_placement_id = "map-object-1792581907879-hfbjvptshtw"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+
+[node name="object_generated_image_2_png_31" type="Sprite2D" parent="3_wall_layer"]
+position = Vector2(768.0, 896.0)
+texture_filter = 1
+centered = false
+texture = ExtResource("8_tex")
+metadata/meowa_kind = "object"
+metadata/meowa_object_id = "upload-wall:1792564502636-tm7fcdtpmpj:generated-image-2.png"
+metadata/meowa_object_placement_id = "map-object-1792581905589-uqucsj58teh"
+metadata/meowa_layer_id = "map-wall-layer"
+metadata/meowa_layer_index = 2.0
+

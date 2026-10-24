@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/shooter_dummy.gd" id="1_shooter"]
+[ext_resource type="Script" path="res://scripts/dummy_bars.gd" id="2_bars"]
+
+[sub_resource type="RectangleShape2D" id="Rect_body"]
+size = Vector2(24, 76)
+
+[node name="ShooterDummy" type="StaticBody2D"]
+script = ExtResource("1_shooter")
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+shape = SubResource("Rect_body")
+
+[node name="Bars" type="Node2D" parent="."]
+script = ExtResource("2_bars")

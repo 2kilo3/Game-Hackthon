@@ -1,0 +1,121 @@
+[gd_resource type="SpriteFrames" load_steps=25 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/props/pylon/idle_loop/energy_pillar_idle_loop_0001.png" id="1"]
+[ext_resource type="Texture2D" path="res://assets/props/pylon/idle_loop/energy_pillar_idle_loop_0002.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/props/pylon/idle_loop/energy_pillar_idle_loop_0003.png" id="3"]
+[ext_resource type="Texture2D" path="res://assets/props/pylon/idle_loop/energy_pillar_idle_loop_0004.png" id="4"]
+[ext_resource type="Texture2D" path="res://assets/props/pylon/idle_loop/energy_pillar_idle_loop_0005.png" id="5"]
+[ext_resource type="Texture2D" path="res://assets/props/pylon/idle_loop/energy_pillar_idle_loop_0006.png" id="6"]
+[ext_resource type="Texture2D" path="res://assets/props/pylon/activate_once/energy_pillar_activate_once_0001.png" id="7"]
+[ext_resource type="Texture2D" path="res://assets/props/pylon/activate_once/energy_pillar_activate_once_0002.png" id="8"]
+[ext_resource type="Texture2D" path="res://assets/props/pylon/activate_once/energy_pillar_activate_once_0003.png" id="9"]
+[ext_resource type="Texture2D" path="res://assets/props/pylon/activate_once/energy_pillar_activate_once_0004.png" id="10"]
+[ext_resource type="Texture2D" path="res://assets/props/pylon/activate_once/energy_pillar_activate_once_0005.png" id="11"]
+[ext_resource type="Texture2D" path="res://assets/props/pylon/activate_once/energy_pillar_activate_once_0006.png" id="12"]
+[ext_resource type="Texture2D" path="res://assets/props/pylon/active_loop/energy_pillar_active_loop_0001.png" id="13"]
+[ext_resource type="Texture2D" path="res://assets/props/pylon/active_loop/energy_pillar_active_loop_0002.png" id="14"]
+[ext_resource type="Texture2D" path="res://assets/props/pylon/active_loop/energy_pillar_active_loop_0003.png" id="15"]
+[ext_resource type="Texture2D" path="res://assets/props/pylon/active_loop/energy_pillar_active_loop_0004.png" id="16"]
+[ext_resource type="Texture2D" path="res://assets/props/pylon/active_loop/energy_pillar_active_loop_0005.png" id="17"]
+[ext_resource type="Texture2D" path="res://assets/props/pylon/active_loop/energy_pillar_active_loop_0006.png" id="18"]
+[ext_resource type="Texture2D" path="res://assets/props/pylon/attack_once/energy_pillar_attack_once_0001.png" id="19"]
+[ext_resource type="Texture2D" path="res://assets/props/pylon/attack_once/energy_pillar_attack_once_0002.png" id="20"]
+[ext_resource type="Texture2D" path="res://assets/props/pylon/attack_once/energy_pillar_attack_once_0003.png" id="21"]
+[ext_resource type="Texture2D" path="res://assets/props/pylon/attack_once/energy_pillar_attack_once_0004.png" id="22"]
+[ext_resource type="Texture2D" path="res://assets/props/pylon/attack_once/energy_pillar_attack_once_0005.png" id="23"]
+[ext_resource type="Texture2D" path="res://assets/props/pylon/attack_once/energy_pillar_attack_once_0006.png" id="24"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}],
+"loop": false,
+"name": &"activate",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}],
+"loop": true,
+"name": &"active",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}],
+"loop": false,
+"name": &"attack",
+"speed": 14.0
+}]

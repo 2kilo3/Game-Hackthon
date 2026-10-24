@@ -1,0 +1,36 @@
+[gd_scene load_steps=10 format=3]
+
+[ext_resource type="Script" path="res://scripts/modern_boss.gd" id="1_mboss"]
+[ext_resource type="SpriteFrames" path="res://resources/boss_modern_frames.tres" id="2_frames"]
+[ext_resource type="Script" path="res://scripts/dummy_bars.gd" id="3_bars"]
+[ext_resource type="AudioStream" path="res://assets/audio/attack.mp3" id="4_attack"]
+[ext_resource type="AudioStream" path="res://assets/audio/counter.mp3" id="5_counter"]
+
+[sub_resource type="RectangleShape2D" id="Rect_mboss"]
+size = Vector2(40, 40)
+
+[node name="ModernBoss" type="CharacterBody2D"]
+collision_layer = 2
+collision_mask = 1
+script = ExtResource("1_mboss")
+
+[node name="Sprite" type="AnimatedSprite2D" parent="."]
+sprite_frames = ExtResource("2_frames")
+animation = &"stand_S"
+offset = Vector2(0, -48)
+centered = true
+
+[node name="Bars" type="Node2D" parent="."]
+script = ExtResource("3_bars")
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+position = Vector2(0, -18)
+shape = SubResource("Rect_mboss")
+[node name="AttackSfx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_attack")
+
+[node name="CounterSfx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_counter")
+
+[node name="DragSfx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_attack")

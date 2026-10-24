@@ -1,0 +1,1933 @@
+[gd_resource type="SpriteFrames" load_steps=393 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/boss/walk/E/walk_E_01.png" id="1"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/E/walk_E_02.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/E/walk_E_03.png" id="3"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/E/walk_E_04.png" id="4"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/E/walk_E_05.png" id="5"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/E/walk_E_06.png" id="6"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/N/walk_N_01.png" id="7"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/N/walk_N_02.png" id="8"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/N/walk_N_03.png" id="9"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/N/walk_N_04.png" id="10"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/N/walk_N_05.png" id="11"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/N/walk_N_06.png" id="12"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/NE/walk_NE_01.png" id="13"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/NE/walk_NE_02.png" id="14"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/NE/walk_NE_03.png" id="15"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/NE/walk_NE_04.png" id="16"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/NE/walk_NE_05.png" id="17"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/NE/walk_NE_06.png" id="18"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/NW/walk_NW_01.png" id="19"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/NW/walk_NW_02.png" id="20"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/NW/walk_NW_03.png" id="21"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/NW/walk_NW_04.png" id="22"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/NW/walk_NW_05.png" id="23"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/NW/walk_NW_06.png" id="24"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/S/walk_S_01.png" id="25"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/S/walk_S_02.png" id="26"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/S/walk_S_03.png" id="27"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/S/walk_S_04.png" id="28"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/S/walk_S_05.png" id="29"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/S/walk_S_06.png" id="30"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/SE/walk_SE_01.png" id="31"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/SE/walk_SE_02.png" id="32"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/SE/walk_SE_03.png" id="33"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/SE/walk_SE_04.png" id="34"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/SE/walk_SE_05.png" id="35"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/SE/walk_SE_06.png" id="36"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/SW/walk_SW_01.png" id="37"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/SW/walk_SW_02.png" id="38"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/SW/walk_SW_03.png" id="39"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/SW/walk_SW_04.png" id="40"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/SW/walk_SW_05.png" id="41"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/SW/walk_SW_06.png" id="42"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/W/walk_W_01.png" id="43"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/W/walk_W_02.png" id="44"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/W/walk_W_03.png" id="45"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/W/walk_W_04.png" id="46"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/W/walk_W_05.png" id="47"]
+[ext_resource type="Texture2D" path="res://assets/boss/walk/W/walk_W_06.png" id="48"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/E/shield_walk_E_01.png" id="49"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/E/shield_walk_E_02.png" id="50"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/E/shield_walk_E_03.png" id="51"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/E/shield_walk_E_04.png" id="52"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/E/shield_walk_E_05.png" id="53"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/E/shield_walk_E_06.png" id="54"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/N/shield_walk_N_01.png" id="55"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/N/shield_walk_N_02.png" id="56"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/N/shield_walk_N_03.png" id="57"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/N/shield_walk_N_04.png" id="58"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/N/shield_walk_N_05.png" id="59"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/N/shield_walk_N_06.png" id="60"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/NE/shield_walk_NE_01.png" id="61"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/NE/shield_walk_NE_02.png" id="62"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/NE/shield_walk_NE_03.png" id="63"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/NE/shield_walk_NE_04.png" id="64"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/NE/shield_walk_NE_05.png" id="65"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/NE/shield_walk_NE_06.png" id="66"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/NW/shield_walk_NW_01.png" id="67"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/NW/shield_walk_NW_02.png" id="68"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/NW/shield_walk_NW_03.png" id="69"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/NW/shield_walk_NW_04.png" id="70"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/NW/shield_walk_NW_05.png" id="71"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/NW/shield_walk_NW_06.png" id="72"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/S/shield_walk_S_01.png" id="73"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/S/shield_walk_S_02.png" id="74"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/S/shield_walk_S_03.png" id="75"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/S/shield_walk_S_04.png" id="76"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/S/shield_walk_S_05.png" id="77"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/S/shield_walk_S_06.png" id="78"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/SE/shield_walk_SE_01.png" id="79"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/SE/shield_walk_SE_02.png" id="80"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/SE/shield_walk_SE_03.png" id="81"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/SE/shield_walk_SE_04.png" id="82"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/SE/shield_walk_SE_05.png" id="83"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/SE/shield_walk_SE_06.png" id="84"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/SW/shield_walk_SW_01.png" id="85"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/SW/shield_walk_SW_02.png" id="86"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/SW/shield_walk_SW_03.png" id="87"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/SW/shield_walk_SW_04.png" id="88"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/SW/shield_walk_SW_05.png" id="89"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/SW/shield_walk_SW_06.png" id="90"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/W/shield_walk_W_01.png" id="91"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/W/shield_walk_W_02.png" id="92"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/W/shield_walk_W_03.png" id="93"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/W/shield_walk_W_04.png" id="94"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/W/shield_walk_W_05.png" id="95"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_walk/W/shield_walk_W_06.png" id="96"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/E/shoot_E_01.png" id="97"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/E/shoot_E_02.png" id="98"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/E/shoot_E_03.png" id="99"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/E/shoot_E_04.png" id="100"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/E/shoot_E_05.png" id="101"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/E/shoot_E_06.png" id="102"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/N/shoot_N_01.png" id="103"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/N/shoot_N_02.png" id="104"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/N/shoot_N_03.png" id="105"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/N/shoot_N_04.png" id="106"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/N/shoot_N_05.png" id="107"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/N/shoot_N_06.png" id="108"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/NE/shoot_NE_01.png" id="109"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/NE/shoot_NE_02.png" id="110"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/NE/shoot_NE_03.png" id="111"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/NE/shoot_NE_04.png" id="112"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/NE/shoot_NE_05.png" id="113"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/NE/shoot_NE_06.png" id="114"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/NW/shoot_NW_01.png" id="115"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/NW/shoot_NW_02.png" id="116"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/NW/shoot_NW_03.png" id="117"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/NW/shoot_NW_04.png" id="118"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/NW/shoot_NW_05.png" id="119"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/NW/shoot_NW_06.png" id="120"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/S/shoot_S_01.png" id="121"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/S/shoot_S_02.png" id="122"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/S/shoot_S_03.png" id="123"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/S/shoot_S_04.png" id="124"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/S/shoot_S_05.png" id="125"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/S/shoot_S_06.png" id="126"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/SE/shoot_SE_01.png" id="127"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/SE/shoot_SE_02.png" id="128"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/SE/shoot_SE_03.png" id="129"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/SE/shoot_SE_04.png" id="130"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/SE/shoot_SE_05.png" id="131"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/SE/shoot_SE_06.png" id="132"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/SW/shoot_SW_01.png" id="133"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/SW/shoot_SW_02.png" id="134"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/SW/shoot_SW_03.png" id="135"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/SW/shoot_SW_04.png" id="136"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/SW/shoot_SW_05.png" id="137"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/SW/shoot_SW_06.png" id="138"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/W/shoot_W_01.png" id="139"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/W/shoot_W_02.png" id="140"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/W/shoot_W_03.png" id="141"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/W/shoot_W_04.png" id="142"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/W/shoot_W_05.png" id="143"]
+[ext_resource type="Texture2D" path="res://assets/boss/shoot/W/shoot_W_06.png" id="144"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/E/shield_shoot_E_01.png" id="145"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/E/shield_shoot_E_02.png" id="146"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/E/shield_shoot_E_03.png" id="147"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/E/shield_shoot_E_04.png" id="148"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/E/shield_shoot_E_05.png" id="149"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/E/shield_shoot_E_06.png" id="150"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/N/shield_shoot_N_01.png" id="151"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/N/shield_shoot_N_02.png" id="152"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/N/shield_shoot_N_03.png" id="153"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/N/shield_shoot_N_04.png" id="154"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/N/shield_shoot_N_05.png" id="155"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/N/shield_shoot_N_06.png" id="156"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/NE/shield_shoot_NE_01.png" id="157"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/NE/shield_shoot_NE_02.png" id="158"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/NE/shield_shoot_NE_03.png" id="159"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/NE/shield_shoot_NE_04.png" id="160"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/NE/shield_shoot_NE_05.png" id="161"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/NE/shield_shoot_NE_06.png" id="162"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/NW/shield_shoot_NW_01.png" id="163"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/NW/shield_shoot_NW_02.png" id="164"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/NW/shield_shoot_NW_03.png" id="165"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/NW/shield_shoot_NW_04.png" id="166"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/NW/shield_shoot_NW_05.png" id="167"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/NW/shield_shoot_NW_06.png" id="168"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/S/shield_shoot_S_01.png" id="169"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/S/shield_shoot_S_02.png" id="170"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/S/shield_shoot_S_03.png" id="171"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/S/shield_shoot_S_04.png" id="172"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/S/shield_shoot_S_05.png" id="173"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/S/shield_shoot_S_06.png" id="174"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/SE/shield_shoot_SE_01.png" id="175"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/SE/shield_shoot_SE_02.png" id="176"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/SE/shield_shoot_SE_03.png" id="177"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/SE/shield_shoot_SE_04.png" id="178"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/SE/shield_shoot_SE_05.png" id="179"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/SE/shield_shoot_SE_06.png" id="180"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/SW/shield_shoot_SW_01.png" id="181"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/SW/shield_shoot_SW_02.png" id="182"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/SW/shield_shoot_SW_03.png" id="183"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/SW/shield_shoot_SW_04.png" id="184"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/SW/shield_shoot_SW_05.png" id="185"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/SW/shield_shoot_SW_06.png" id="186"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/W/shield_shoot_W_01.png" id="187"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/W/shield_shoot_W_02.png" id="188"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/W/shield_shoot_W_03.png" id="189"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/W/shield_shoot_W_04.png" id="190"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/W/shield_shoot_W_05.png" id="191"]
+[ext_resource type="Texture2D" path="res://assets/boss/shield_shoot/W/shield_shoot_W_06.png" id="192"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/E/charge_E_01.png" id="193"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/E/charge_E_02.png" id="194"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/E/charge_E_03.png" id="195"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/E/charge_E_04.png" id="196"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/E/charge_E_05.png" id="197"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/E/charge_E_06.png" id="198"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/N/charge_N_01.png" id="199"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/N/charge_N_02.png" id="200"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/N/charge_N_03.png" id="201"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/N/charge_N_04.png" id="202"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/N/charge_N_05.png" id="203"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/N/charge_N_06.png" id="204"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/NE/charge_NE_01.png" id="205"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/NE/charge_NE_02.png" id="206"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/NE/charge_NE_03.png" id="207"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/NE/charge_NE_04.png" id="208"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/NE/charge_NE_05.png" id="209"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/NE/charge_NE_06.png" id="210"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/NW/charge_NW_01.png" id="211"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/NW/charge_NW_02.png" id="212"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/NW/charge_NW_03.png" id="213"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/NW/charge_NW_04.png" id="214"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/NW/charge_NW_05.png" id="215"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/NW/charge_NW_06.png" id="216"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/S/charge_S_01.png" id="217"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/S/charge_S_02.png" id="218"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/S/charge_S_03.png" id="219"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/S/charge_S_04.png" id="220"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/S/charge_S_05.png" id="221"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/S/charge_S_06.png" id="222"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/SE/charge_SE_01.png" id="223"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/SE/charge_SE_02.png" id="224"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/SE/charge_SE_03.png" id="225"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/SE/charge_SE_04.png" id="226"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/SE/charge_SE_05.png" id="227"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/SE/charge_SE_06.png" id="228"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/SW/charge_SW_01.png" id="229"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/SW/charge_SW_02.png" id="230"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/SW/charge_SW_03.png" id="231"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/SW/charge_SW_04.png" id="232"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/SW/charge_SW_05.png" id="233"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/SW/charge_SW_06.png" id="234"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/W/charge_W_01.png" id="235"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/W/charge_W_02.png" id="236"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/W/charge_W_03.png" id="237"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/W/charge_W_04.png" id="238"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/W/charge_W_05.png" id="239"]
+[ext_resource type="Texture2D" path="res://assets/boss/charge/W/charge_W_06.png" id="240"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/E/bash_E_01.png" id="241"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/E/bash_E_02.png" id="242"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/E/bash_E_03.png" id="243"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/E/bash_E_04.png" id="244"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/E/bash_E_05.png" id="245"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/E/bash_E_06.png" id="246"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/N/bash_N_01.png" id="247"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/N/bash_N_02.png" id="248"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/N/bash_N_03.png" id="249"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/N/bash_N_04.png" id="250"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/N/bash_N_05.png" id="251"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/N/bash_N_06.png" id="252"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/NE/bash_NE_01.png" id="253"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/NE/bash_NE_02.png" id="254"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/NE/bash_NE_03.png" id="255"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/NE/bash_NE_04.png" id="256"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/NE/bash_NE_05.png" id="257"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/NE/bash_NE_06.png" id="258"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/NW/bash_NW_01.png" id="259"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/NW/bash_NW_02.png" id="260"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/NW/bash_NW_03.png" id="261"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/NW/bash_NW_04.png" id="262"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/NW/bash_NW_05.png" id="263"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/NW/bash_NW_06.png" id="264"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/S/bash_S_01.png" id="265"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/S/bash_S_02.png" id="266"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/S/bash_S_03.png" id="267"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/S/bash_S_04.png" id="268"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/S/bash_S_05.png" id="269"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/S/bash_S_06.png" id="270"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/SE/bash_SE_01.png" id="271"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/SE/bash_SE_02.png" id="272"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/SE/bash_SE_03.png" id="273"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/SE/bash_SE_04.png" id="274"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/SE/bash_SE_05.png" id="275"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/SE/bash_SE_06.png" id="276"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/SW/bash_SW_01.png" id="277"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/SW/bash_SW_02.png" id="278"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/SW/bash_SW_03.png" id="279"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/SW/bash_SW_04.png" id="280"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/SW/bash_SW_05.png" id="281"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/SW/bash_SW_06.png" id="282"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/W/bash_W_01.png" id="283"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/W/bash_W_02.png" id="284"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/W/bash_W_03.png" id="285"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/W/bash_W_04.png" id="286"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/W/bash_W_05.png" id="287"]
+[ext_resource type="Texture2D" path="res://assets/boss/bash/W/bash_W_06.png" id="288"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/E/block_E_01.png" id="289"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/E/block_E_02.png" id="290"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/E/block_E_03.png" id="291"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/E/block_E_04.png" id="292"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/E/block_E_05.png" id="293"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/E/block_E_06.png" id="294"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/N/block_N_01.png" id="295"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/N/block_N_02.png" id="296"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/N/block_N_03.png" id="297"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/N/block_N_04.png" id="298"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/N/block_N_05.png" id="299"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/N/block_N_06.png" id="300"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/NE/block_NE_01.png" id="301"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/NE/block_NE_02.png" id="302"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/NE/block_NE_03.png" id="303"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/NE/block_NE_04.png" id="304"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/NE/block_NE_05.png" id="305"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/NE/block_NE_06.png" id="306"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/NW/block_NW_01.png" id="307"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/NW/block_NW_02.png" id="308"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/NW/block_NW_03.png" id="309"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/NW/block_NW_04.png" id="310"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/NW/block_NW_05.png" id="311"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/NW/block_NW_06.png" id="312"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/S/block_S_01.png" id="313"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/S/block_S_02.png" id="314"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/S/block_S_03.png" id="315"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/S/block_S_04.png" id="316"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/S/block_S_05.png" id="317"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/S/block_S_06.png" id="318"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/SE/block_SE_01.png" id="319"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/SE/block_SE_02.png" id="320"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/SE/block_SE_03.png" id="321"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/SE/block_SE_04.png" id="322"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/SE/block_SE_05.png" id="323"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/SE/block_SE_06.png" id="324"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/SW/block_SW_01.png" id="325"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/SW/block_SW_02.png" id="326"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/SW/block_SW_03.png" id="327"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/SW/block_SW_04.png" id="328"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/SW/block_SW_05.png" id="329"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/SW/block_SW_06.png" id="330"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/W/block_W_01.png" id="331"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/W/block_W_02.png" id="332"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/W/block_W_03.png" id="333"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/W/block_W_04.png" id="334"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/W/block_W_05.png" id="335"]
+[ext_resource type="Texture2D" path="res://assets/boss/block/W/block_W_06.png" id="336"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/E/paralyzed_E_01.png" id="337"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/E/paralyzed_E_02.png" id="338"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/E/paralyzed_E_03.png" id="339"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/E/paralyzed_E_04.png" id="340"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/E/paralyzed_E_05.png" id="341"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/E/paralyzed_E_06.png" id="342"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/N/paralyzed_N_01.png" id="343"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/N/paralyzed_N_02.png" id="344"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/N/paralyzed_N_03.png" id="345"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/N/paralyzed_N_04.png" id="346"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/N/paralyzed_N_05.png" id="347"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/N/paralyzed_N_06.png" id="348"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/NE/paralyzed_NE_01.png" id="349"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/NE/paralyzed_NE_02.png" id="350"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/NE/paralyzed_NE_03.png" id="351"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/NE/paralyzed_NE_04.png" id="352"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/NE/paralyzed_NE_05.png" id="353"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/NE/paralyzed_NE_06.png" id="354"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/NW/paralyzed_NW_01.png" id="355"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/NW/paralyzed_NW_02.png" id="356"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/NW/paralyzed_NW_03.png" id="357"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/NW/paralyzed_NW_04.png" id="358"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/NW/paralyzed_NW_05.png" id="359"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/NW/paralyzed_NW_06.png" id="360"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/S/paralyzed_S_01.png" id="361"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/S/paralyzed_S_02.png" id="362"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/S/paralyzed_S_03.png" id="363"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/S/paralyzed_S_04.png" id="364"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/S/paralyzed_S_05.png" id="365"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/S/paralyzed_S_06.png" id="366"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/SE/paralyzed_SE_01.png" id="367"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/SE/paralyzed_SE_02.png" id="368"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/SE/paralyzed_SE_03.png" id="369"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/SE/paralyzed_SE_04.png" id="370"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/SE/paralyzed_SE_05.png" id="371"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/SE/paralyzed_SE_06.png" id="372"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/SW/paralyzed_SW_01.png" id="373"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/SW/paralyzed_SW_02.png" id="374"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/SW/paralyzed_SW_03.png" id="375"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/SW/paralyzed_SW_04.png" id="376"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/SW/paralyzed_SW_05.png" id="377"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/SW/paralyzed_SW_06.png" id="378"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/W/paralyzed_W_01.png" id="379"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/W/paralyzed_W_02.png" id="380"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/W/paralyzed_W_03.png" id="381"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/W/paralyzed_W_04.png" id="382"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/W/paralyzed_W_05.png" id="383"]
+[ext_resource type="Texture2D" path="res://assets/boss/paralyzed/W/paralyzed_W_06.png" id="384"]
+[ext_resource type="Texture2D" path="res://assets/boss/stand/stand_E.png" id="385"]
+[ext_resource type="Texture2D" path="res://assets/boss/stand/stand_N.png" id="386"]
+[ext_resource type="Texture2D" path="res://assets/boss/stand/stand_NE.png" id="387"]
+[ext_resource type="Texture2D" path="res://assets/boss/stand/stand_NW.png" id="388"]
+[ext_resource type="Texture2D" path="res://assets/boss/stand/stand_S.png" id="389"]
+[ext_resource type="Texture2D" path="res://assets/boss/stand/stand_SE.png" id="390"]
+[ext_resource type="Texture2D" path="res://assets/boss/stand/stand_SW.png" id="391"]
+[ext_resource type="Texture2D" path="res://assets/boss/stand/stand_W.png" id="392"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}],
+"loop": true,
+"name": &"walk_E",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}],
+"loop": true,
+"name": &"walk_N",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}],
+"loop": true,
+"name": &"walk_NE",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}],
+"loop": true,
+"name": &"walk_NW",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}],
+"loop": true,
+"name": &"walk_S",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}],
+"loop": true,
+"name": &"walk_SE",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}],
+"loop": true,
+"name": &"walk_SW",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}],
+"loop": true,
+"name": &"walk_W",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}],
+"loop": true,
+"name": &"shield_walk_E",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60")
+}],
+"loop": true,
+"name": &"shield_walk_N",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66")
+}],
+"loop": true,
+"name": &"shield_walk_NE",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72")
+}],
+"loop": true,
+"name": &"shield_walk_NW",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78")
+}],
+"loop": true,
+"name": &"shield_walk_S",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("79")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84")
+}],
+"loop": true,
+"name": &"shield_walk_SE",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90")
+}],
+"loop": true,
+"name": &"shield_walk_SW",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("91")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96")
+}],
+"loop": true,
+"name": &"shield_walk_W",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("97")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102")
+}],
+"loop": false,
+"name": &"shoot_E",
+"speed": 14.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("103")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108")
+}],
+"loop": false,
+"name": &"shoot_N",
+"speed": 14.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("109")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114")
+}],
+"loop": false,
+"name": &"shoot_NE",
+"speed": 14.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("115")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120")
+}],
+"loop": false,
+"name": &"shoot_NW",
+"speed": 14.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("121")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126")
+}],
+"loop": false,
+"name": &"shoot_S",
+"speed": 14.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("127")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132")
+}],
+"loop": false,
+"name": &"shoot_SE",
+"speed": 14.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("133")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138")
+}],
+"loop": false,
+"name": &"shoot_SW",
+"speed": 14.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("139")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144")
+}],
+"loop": false,
+"name": &"shoot_W",
+"speed": 14.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("145")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150")
+}],
+"loop": false,
+"name": &"shield_shoot_E",
+"speed": 14.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("151")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152")
+}, {
+"duration": 1.0,
+"texture": ExtResource("153")
+}, {
+"duration": 1.0,
+"texture": ExtResource("154")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155")
+}, {
+"duration": 1.0,
+"texture": ExtResource("156")
+}],
+"loop": false,
+"name": &"shield_shoot_N",
+"speed": 14.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("157")
+}, {
+"duration": 1.0,
+"texture": ExtResource("158")
+}, {
+"duration": 1.0,
+"texture": ExtResource("159")
+}, {
+"duration": 1.0,
+"texture": ExtResource("160")
+}, {
+"duration": 1.0,
+"texture": ExtResource("161")
+}, {
+"duration": 1.0,
+"texture": ExtResource("162")
+}],
+"loop": false,
+"name": &"shield_shoot_NE",
+"speed": 14.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("163")
+}, {
+"duration": 1.0,
+"texture": ExtResource("164")
+}, {
+"duration": 1.0,
+"texture": ExtResource("165")
+}, {
+"duration": 1.0,
+"texture": ExtResource("166")
+}, {
+"duration": 1.0,
+"texture": ExtResource("167")
+}, {
+"duration": 1.0,
+"texture": ExtResource("168")
+}],
+"loop": false,
+"name": &"shield_shoot_NW",
+"speed": 14.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("169")
+}, {
+"duration": 1.0,
+"texture": ExtResource("170")
+}, {
+"duration": 1.0,
+"texture": ExtResource("171")
+}, {
+"duration": 1.0,
+"texture": ExtResource("172")
+}, {
+"duration": 1.0,
+"texture": ExtResource("173")
+}, {
+"duration": 1.0,
+"texture": ExtResource("174")
+}],
+"loop": false,
+"name": &"shield_shoot_S",
+"speed": 14.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("175")
+}, {
+"duration": 1.0,
+"texture": ExtResource("176")
+}, {
+"duration": 1.0,
+"texture": ExtResource("177")
+}, {
+"duration": 1.0,
+"texture": ExtResource("178")
+}, {
+"duration": 1.0,
+"texture": ExtResource("179")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180")
+}],
+"loop": false,
+"name": &"shield_shoot_SE",
+"speed": 14.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("181")
+}, {
+"duration": 1.0,
+"texture": ExtResource("182")
+}, {
+"duration": 1.0,
+"texture": ExtResource("183")
+}, {
+"duration": 1.0,
+"texture": ExtResource("184")
+}, {
+"duration": 1.0,
+"texture": ExtResource("185")
+}, {
+"duration": 1.0,
+"texture": ExtResource("186")
+}],
+"loop": false,
+"name": &"shield_shoot_SW",
+"speed": 14.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("187")
+}, {
+"duration": 1.0,
+"texture": ExtResource("188")
+}, {
+"duration": 1.0,
+"texture": ExtResource("189")
+}, {
+"duration": 1.0,
+"texture": ExtResource("190")
+}, {
+"duration": 1.0,
+"texture": ExtResource("191")
+}, {
+"duration": 1.0,
+"texture": ExtResource("192")
+}],
+"loop": false,
+"name": &"shield_shoot_W",
+"speed": 14.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("193")
+}, {
+"duration": 1.0,
+"texture": ExtResource("194")
+}, {
+"duration": 1.0,
+"texture": ExtResource("195")
+}, {
+"duration": 1.0,
+"texture": ExtResource("196")
+}, {
+"duration": 1.0,
+"texture": ExtResource("197")
+}, {
+"duration": 1.0,
+"texture": ExtResource("198")
+}],
+"loop": true,
+"name": &"charge_E",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("199")
+}, {
+"duration": 1.0,
+"texture": ExtResource("200")
+}, {
+"duration": 1.0,
+"texture": ExtResource("201")
+}, {
+"duration": 1.0,
+"texture": ExtResource("202")
+}, {
+"duration": 1.0,
+"texture": ExtResource("203")
+}, {
+"duration": 1.0,
+"texture": ExtResource("204")
+}],
+"loop": true,
+"name": &"charge_N",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("205")
+}, {
+"duration": 1.0,
+"texture": ExtResource("206")
+}, {
+"duration": 1.0,
+"texture": ExtResource("207")
+}, {
+"duration": 1.0,
+"texture": ExtResource("208")
+}, {
+"duration": 1.0,
+"texture": ExtResource("209")
+}, {
+"duration": 1.0,
+"texture": ExtResource("210")
+}],
+"loop": true,
+"name": &"charge_NE",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("211")
+}, {
+"duration": 1.0,
+"texture": ExtResource("212")
+}, {
+"duration": 1.0,
+"texture": ExtResource("213")
+}, {
+"duration": 1.0,
+"texture": ExtResource("214")
+}, {
+"duration": 1.0,
+"texture": ExtResource("215")
+}, {
+"duration": 1.0,
+"texture": ExtResource("216")
+}],
+"loop": true,
+"name": &"charge_NW",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("217")
+}, {
+"duration": 1.0,
+"texture": ExtResource("218")
+}, {
+"duration": 1.0,
+"texture": ExtResource("219")
+}, {
+"duration": 1.0,
+"texture": ExtResource("220")
+}, {
+"duration": 1.0,
+"texture": ExtResource("221")
+}, {
+"duration": 1.0,
+"texture": ExtResource("222")
+}],
+"loop": true,
+"name": &"charge_S",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("223")
+}, {
+"duration": 1.0,
+"texture": ExtResource("224")
+}, {
+"duration": 1.0,
+"texture": ExtResource("225")
+}, {
+"duration": 1.0,
+"texture": ExtResource("226")
+}, {
+"duration": 1.0,
+"texture": ExtResource("227")
+}, {
+"duration": 1.0,
+"texture": ExtResource("228")
+}],
+"loop": true,
+"name": &"charge_SE",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("229")
+}, {
+"duration": 1.0,
+"texture": ExtResource("230")
+}, {
+"duration": 1.0,
+"texture": ExtResource("231")
+}, {
+"duration": 1.0,
+"texture": ExtResource("232")
+}, {
+"duration": 1.0,
+"texture": ExtResource("233")
+}, {
+"duration": 1.0,
+"texture": ExtResource("234")
+}],
+"loop": true,
+"name": &"charge_SW",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("235")
+}, {
+"duration": 1.0,
+"texture": ExtResource("236")
+}, {
+"duration": 1.0,
+"texture": ExtResource("237")
+}, {
+"duration": 1.0,
+"texture": ExtResource("238")
+}, {
+"duration": 1.0,
+"texture": ExtResource("239")
+}, {
+"duration": 1.0,
+"texture": ExtResource("240")
+}],
+"loop": true,
+"name": &"charge_W",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("241")
+}, {
+"duration": 1.0,
+"texture": ExtResource("242")
+}, {
+"duration": 1.0,
+"texture": ExtResource("243")
+}, {
+"duration": 1.0,
+"texture": ExtResource("244")
+}, {
+"duration": 1.0,
+"texture": ExtResource("245")
+}, {
+"duration": 1.0,
+"texture": ExtResource("246")
+}],
+"loop": false,
+"name": &"bash_E",
+"speed": 14.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("247")
+}, {
+"duration": 1.0,
+"texture": ExtResource("248")
+}, {
+"duration": 1.0,
+"texture": ExtResource("249")
+}, {
+"duration": 1.0,
+"texture": ExtResource("250")
+}, {
+"duration": 1.0,
+"texture": ExtResource("251")
+}, {
+"duration": 1.0,
+"texture": ExtResource("252")
+}],
+"loop": false,
+"name": &"bash_N",
+"speed": 14.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("253")
+}, {
+"duration": 1.0,
+"texture": ExtResource("254")
+}, {
+"duration": 1.0,
+"texture": ExtResource("255")
+}, {
+"duration": 1.0,
+"texture": ExtResource("256")
+}, {
+"duration": 1.0,
+"texture": ExtResource("257")
+}, {
+"duration": 1.0,
+"texture": ExtResource("258")
+}],
+"loop": false,
+"name": &"bash_NE",
+"speed": 14.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("259")
+}, {
+"duration": 1.0,
+"texture": ExtResource("260")
+}, {
+"duration": 1.0,
+"texture": ExtResource("261")
+}, {
+"duration": 1.0,
+"texture": ExtResource("262")
+}, {
+"duration": 1.0,
+"texture": ExtResource("263")
+}, {
+"duration": 1.0,
+"texture": ExtResource("264")
+}],
+"loop": false,
+"name": &"bash_NW",
+"speed": 14.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("265")
+}, {
+"duration": 1.0,
+"texture": ExtResource("266")
+}, {
+"duration": 1.0,
+"texture": ExtResource("267")
+}, {
+"duration": 1.0,
+"texture": ExtResource("268")
+}, {
+"duration": 1.0,
+"texture": ExtResource("269")
+}, {
+"duration": 1.0,
+"texture": ExtResource("270")
+}],
+"loop": false,
+"name": &"bash_S",
+"speed": 14.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("271")
+}, {
+"duration": 1.0,
+"texture": ExtResource("272")
+}, {
+"duration": 1.0,
+"texture": ExtResource("273")
+}, {
+"duration": 1.0,
+"texture": ExtResource("274")
+}, {
+"duration": 1.0,
+"texture": ExtResource("275")
+}, {
+"duration": 1.0,
+"texture": ExtResource("276")
+}],
+"loop": false,
+"name": &"bash_SE",
+"speed": 14.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("277")
+}, {
+"duration": 1.0,
+"texture": ExtResource("278")
+}, {
+"duration": 1.0,
+"texture": ExtResource("279")
+}, {
+"duration": 1.0,
+"texture": ExtResource("280")
+}, {
+"duration": 1.0,
+"texture": ExtResource("281")
+}, {
+"duration": 1.0,
+"texture": ExtResource("282")
+}],
+"loop": false,
+"name": &"bash_SW",
+"speed": 14.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("283")
+}, {
+"duration": 1.0,
+"texture": ExtResource("284")
+}, {
+"duration": 1.0,
+"texture": ExtResource("285")
+}, {
+"duration": 1.0,
+"texture": ExtResource("286")
+}, {
+"duration": 1.0,
+"texture": ExtResource("287")
+}, {
+"duration": 1.0,
+"texture": ExtResource("288")
+}],
+"loop": false,
+"name": &"bash_W",
+"speed": 14.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("289")
+}, {
+"duration": 1.0,
+"texture": ExtResource("290")
+}, {
+"duration": 1.0,
+"texture": ExtResource("291")
+}, {
+"duration": 1.0,
+"texture": ExtResource("292")
+}, {
+"duration": 1.0,
+"texture": ExtResource("293")
+}, {
+"duration": 1.0,
+"texture": ExtResource("294")
+}],
+"loop": false,
+"name": &"block_E",
+"speed": 16.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("295")
+}, {
+"duration": 1.0,
+"texture": ExtResource("296")
+}, {
+"duration": 1.0,
+"texture": ExtResource("297")
+}, {
+"duration": 1.0,
+"texture": ExtResource("298")
+}, {
+"duration": 1.0,
+"texture": ExtResource("299")
+}, {
+"duration": 1.0,
+"texture": ExtResource("300")
+}],
+"loop": false,
+"name": &"block_N",
+"speed": 16.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("301")
+}, {
+"duration": 1.0,
+"texture": ExtResource("302")
+}, {
+"duration": 1.0,
+"texture": ExtResource("303")
+}, {
+"duration": 1.0,
+"texture": ExtResource("304")
+}, {
+"duration": 1.0,
+"texture": ExtResource("305")
+}, {
+"duration": 1.0,
+"texture": ExtResource("306")
+}],
+"loop": false,
+"name": &"block_NE",
+"speed": 16.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("307")
+}, {
+"duration": 1.0,
+"texture": ExtResource("308")
+}, {
+"duration": 1.0,
+"texture": ExtResource("309")
+}, {
+"duration": 1.0,
+"texture": ExtResource("310")
+}, {
+"duration": 1.0,
+"texture": ExtResource("311")
+}, {
+"duration": 1.0,
+"texture": ExtResource("312")
+}],
+"loop": false,
+"name": &"block_NW",
+"speed": 16.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("313")
+}, {
+"duration": 1.0,
+"texture": ExtResource("314")
+}, {
+"duration": 1.0,
+"texture": ExtResource("315")
+}, {
+"duration": 1.0,
+"texture": ExtResource("316")
+}, {
+"duration": 1.0,
+"texture": ExtResource("317")
+}, {
+"duration": 1.0,
+"texture": ExtResource("318")
+}],
+"loop": false,
+"name": &"block_S",
+"speed": 16.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("319")
+}, {
+"duration": 1.0,
+"texture": ExtResource("320")
+}, {
+"duration": 1.0,
+"texture": ExtResource("321")
+}, {
+"duration": 1.0,
+"texture": ExtResource("322")
+}, {
+"duration": 1.0,
+"texture": ExtResource("323")
+}, {
+"duration": 1.0,
+"texture": ExtResource("324")
+}],
+"loop": false,
+"name": &"block_SE",
+"speed": 16.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("325")
+}, {
+"duration": 1.0,
+"texture": ExtResource("326")
+}, {
+"duration": 1.0,
+"texture": ExtResource("327")
+}, {
+"duration": 1.0,
+"texture": ExtResource("328")
+}, {
+"duration": 1.0,
+"texture": ExtResource("329")
+}, {
+"duration": 1.0,
+"texture": ExtResource("330")
+}],
+"loop": false,
+"name": &"block_SW",
+"speed": 16.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("331")
+}, {
+"duration": 1.0,
+"texture": ExtResource("332")
+}, {
+"duration": 1.0,
+"texture": ExtResource("333")
+}, {
+"duration": 1.0,
+"texture": ExtResource("334")
+}, {
+"duration": 1.0,
+"texture": ExtResource("335")
+}, {
+"duration": 1.0,
+"texture": ExtResource("336")
+}],
+"loop": false,
+"name": &"block_W",
+"speed": 16.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("337")
+}, {
+"duration": 1.0,
+"texture": ExtResource("338")
+}, {
+"duration": 1.0,
+"texture": ExtResource("339")
+}, {
+"duration": 1.0,
+"texture": ExtResource("340")
+}, {
+"duration": 1.0,
+"texture": ExtResource("341")
+}, {
+"duration": 1.0,
+"texture": ExtResource("342")
+}],
+"loop": false,
+"name": &"paralyzed_E",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("343")
+}, {
+"duration": 1.0,
+"texture": ExtResource("344")
+}, {
+"duration": 1.0,
+"texture": ExtResource("345")
+}, {
+"duration": 1.0,
+"texture": ExtResource("346")
+}, {
+"duration": 1.0,
+"texture": ExtResource("347")
+}, {
+"duration": 1.0,
+"texture": ExtResource("348")
+}],
+"loop": false,
+"name": &"paralyzed_N",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("349")
+}, {
+"duration": 1.0,
+"texture": ExtResource("350")
+}, {
+"duration": 1.0,
+"texture": ExtResource("351")
+}, {
+"duration": 1.0,
+"texture": ExtResource("352")
+}, {
+"duration": 1.0,
+"texture": ExtResource("353")
+}, {
+"duration": 1.0,
+"texture": ExtResource("354")
+}],
+"loop": false,
+"name": &"paralyzed_NE",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("355")
+}, {
+"duration": 1.0,
+"texture": ExtResource("356")
+}, {
+"duration": 1.0,
+"texture": ExtResource("357")
+}, {
+"duration": 1.0,
+"texture": ExtResource("358")
+}, {
+"duration": 1.0,
+"texture": ExtResource("359")
+}, {
+"duration": 1.0,
+"texture": ExtResource("360")
+}],
+"loop": false,
+"name": &"paralyzed_NW",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("361")
+}, {
+"duration": 1.0,
+"texture": ExtResource("362")
+}, {
+"duration": 1.0,
+"texture": ExtResource("363")
+}, {
+"duration": 1.0,
+"texture": ExtResource("364")
+}, {
+"duration": 1.0,
+"texture": ExtResource("365")
+}, {
+"duration": 1.0,
+"texture": ExtResource("366")
+}],
+"loop": false,
+"name": &"paralyzed_S",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("367")
+}, {
+"duration": 1.0,
+"texture": ExtResource("368")
+}, {
+"duration": 1.0,
+"texture": ExtResource("369")
+}, {
+"duration": 1.0,
+"texture": ExtResource("370")
+}, {
+"duration": 1.0,
+"texture": ExtResource("371")
+}, {
+"duration": 1.0,
+"texture": ExtResource("372")
+}],
+"loop": false,
+"name": &"paralyzed_SE",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("373")
+}, {
+"duration": 1.0,
+"texture": ExtResource("374")
+}, {
+"duration": 1.0,
+"texture": ExtResource("375")
+}, {
+"duration": 1.0,
+"texture": ExtResource("376")
+}, {
+"duration": 1.0,
+"texture": ExtResource("377")
+}, {
+"duration": 1.0,
+"texture": ExtResource("378")
+}],
+"loop": false,
+"name": &"paralyzed_SW",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("379")
+}, {
+"duration": 1.0,
+"texture": ExtResource("380")
+}, {
+"duration": 1.0,
+"texture": ExtResource("381")
+}, {
+"duration": 1.0,
+"texture": ExtResource("382")
+}, {
+"duration": 1.0,
+"texture": ExtResource("383")
+}, {
+"duration": 1.0,
+"texture": ExtResource("384")
+}],
+"loop": false,
+"name": &"paralyzed_W",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("385")
+}],
+"loop": true,
+"name": &"stand_E",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("386")
+}],
+"loop": true,
+"name": &"stand_N",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("387")
+}],
+"loop": true,
+"name": &"stand_NE",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("388")
+}],
+"loop": true,
+"name": &"stand_NW",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("389")
+}],
+"loop": true,
+"name": &"stand_S",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("390")
+}],
+"loop": true,
+"name": &"stand_SE",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("391")
+}],
+"loop": true,
+"name": &"stand_SW",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("392")
+}],
+"loop": true,
+"name": &"stand_W",
+"speed": 1.0
+}]

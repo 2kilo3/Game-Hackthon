@@ -1,0 +1,27 @@
+[gd_scene load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://scripts/modern_enemy.gd" id="1_enemy"]
+[ext_resource type="SpriteFrames" path="res://resources/ranger_frames.tres" id="2_frames"]
+[ext_resource type="Script" path="res://scripts/dummy_bars.gd" id="3_bars"]
+
+[sub_resource type="RectangleShape2D" id="Rect_body"]
+size = Vector2(20, 26)
+
+[node name="ModernEnemy" type="CharacterBody2D"]
+motion_mode = 1
+script = ExtResource("1_enemy")
+
+[node name="Sprite" type="AnimatedSprite2D" parent="."]
+sprite_frames = ExtResource("2_frames")
+animation = &"walk_S"
+offset = Vector2(0, -29)
+centered = true
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+position = Vector2(0, -13)
+shape = SubResource("Rect_body")
+
+[node name="Bars" type="Node2D" parent="."]
+script = ExtResource("3_bars")
+offset_y = -58.0
+bar_width = 38.0

@@ -1,0 +1,112 @@
+[gd_scene load_steps=16 format=3]
+
+[ext_resource type="Script" path="res://scripts/player.gd" id="1_player"]
+[ext_resource type="SpriteFrames" path="res://resources/player_frames.tres" id="2_frames"]
+[ext_resource type="Script" path="res://scripts/shadow.gd" id="3_shadow"]
+[ext_resource type="Script" path="res://scripts/afterimage.gd" id="4_afterimage"]
+[ext_resource type="AudioStream" path="res://assets/audio/run.mp3" id="5_run_sfx"]
+[ext_resource type="AudioStream" path="res://assets/audio/block.mp3" id="6_block_sfx"]
+[ext_resource type="AudioStream" path="res://assets/audio/perfect_block.mp3" id="7_perfect_sfx"]
+[ext_resource type="AudioStream" path="res://assets/audio/dodge.mp3" id="8_dodge_sfx"]
+[ext_resource type="AudioStream" path="res://assets/audio/perfect_dodge.mp3" id="9_perfect_dodge_sfx"]
+[ext_resource type="AudioStream" path="res://assets/audio/attack.mp3" id="10_attack_sfx"]
+[ext_resource type="AudioStream" path="res://assets/audio/counter.mp3" id="11_counter_sfx"]
+[ext_resource type="AudioStream" path="res://assets/audio/respawn.mp3" id="12_respawn_sfx"]
+[ext_resource type="AudioStream" path="res://assets/audio/death.mp3" id="13_death_sfx"]
+[ext_resource type="AudioStream" path="res://assets/audio/era_switch.mp3" id="14_era_switch_sfx"]
+[ext_resource type="AudioStream" path="res://assets/audio/era_appear.mp3" id="15_era_appear_sfx"]
+[ext_resource type="AudioStream" path="res://assets/audio/hit.mp3" id="16_hit_sfx"]
+
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_feet"]
+radius = 7.0
+height = 18.0
+
+[node name="Player" type="CharacterBody2D"]
+motion_mode = 1
+script = ExtResource("1_player")
+
+[node name="Shadow" type="Node2D" parent="."]
+position = Vector2(0, 1)
+script = ExtResource("3_shadow")
+
+[node name="Afterimage" type="Node2D" parent="."]
+script = ExtResource("4_afterimage")
+
+
+[node name="Sprite" type="AnimatedSprite2D" parent="."]
+sprite_frames = ExtResource("2_frames")
+animation = &"stand_S"
+offset = Vector2(0, -25)
+centered = true
+
+[node name="Collider" type="CollisionShape2D" parent="."]
+position = Vector2(0, -7)
+shape = SubResource("CapsuleShape2D_feet")
+
+[node name="Camera" type="Camera2D" parent="."]
+; 不做平滑：相机刚性跟随角色，角色永远在屏幕正中（像素锁定），
+; 背景随物理插值平滑滚动。平滑会引入"相机采样晚一物理帧"的相对抖动。
+position_smoothing_enabled = false
+limit_left = -500
+limit_top = -310
+limit_right = 500
+limit_bottom = 310
+
+[node name="RunSfx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_run_sfx")
+volume_db = -9.0
+bus = &"Master"
+
+[node name="BlockSfx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_block_sfx")
+volume_db = -3.0
+bus = &"Master"
+
+[node name="PerfectBlockSfx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7_perfect_sfx")
+volume_db = -2.0
+bus = &"Master"
+
+[node name="DodgeSfx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("8_dodge_sfx")
+volume_db = -4.0
+bus = &"Master"
+
+[node name="PerfectDodgeSfx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("9_perfect_dodge_sfx")
+volume_db = -2.0
+bus = &"Master"
+
+[node name="AttackSfx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("10_attack_sfx")
+volume_db = -4.0
+bus = &"Master"
+
+[node name="CounterSfx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("11_counter_sfx")
+volume_db = -2.0
+bus = &"Master"
+
+[node name="RespawnSfx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("12_respawn_sfx")
+volume_db = -3.0
+bus = &"Master"
+
+[node name="DeathSfx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("13_death_sfx")
+volume_db = -2.0
+bus = &"Master"
+
+
+[node name="EraSwitchSfx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("14_era_switch_sfx")
+volume_db = -3.0
+bus = &"Master"
+
+[node name="EraAppearSfx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("15_era_appear_sfx")
+volume_db = -3.0
+bus = &"Master"
+[node name="HitSfx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("16_hit_sfx")

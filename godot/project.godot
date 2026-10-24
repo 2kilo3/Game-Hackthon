@@ -1,0 +1,64 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="2.5D Pixel Demo"
+run/main_scene="res://scenes/main_menu.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+; 视野：720×405 画布 + 2 倍整数放大（1440×810 窗口）。
+; 之前 480×270 时视野偏小，改成 720×405 后可视范围 1.5 倍，像素仍然整倍缩放（不会模糊/抖动）。
+;
+; 显示器刷新率 275Hz：帧率上限设成和刷新率一致，每个刷新周期都有一帧新画面。
+; 之前封顶 120 时 275/120≈2.3 不是整数，一帧画面停留的刷新次数在 2~3 之间跳 → 移动时节奏抖动。
+; 换 60/144Hz 显示器时把这里改成对应刷新率，或 0 表示不限帧。
+run/max_fps=275
+
+[autoload]
+
+Keybinds="*res://scripts/keybinds.gd"
+Timeline="*res://scripts/timeline.gd"
+
+[display]
+
+window/size/viewport_width=720
+window/size/viewport_height=405
+window/size/window_width_override=1440
+window/size/window_height_override=810
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/godot_mcp/plugin.cfg")
+
+[gui]
+
+; 中文字体：Noto Sans SC 400 字重 UI 子集（OFL 协议）
+theme/custom_font="res://assets/fonts/ui_progression.ttf"
+
+[physics]
+
+; 高刷新率（本机 275Hz）下，物理 60Hz + 渲染 275Hz 会出现"位置 60 次/秒更新、画面 275 次/秒刷新"的抖动。
+; 开启物理插值后，渲染帧之间会对位置做插值，任何刷新率下都平滑。
+common/physics_interpolation=true
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.72, 0.74, 0.78, 1)
+; 开启整像素吸附：480x270 的画布放大 3 倍时，相机做亚像素平移会让地砖按"非整数像素"
+; 采样（最近邻），贴图边缘会在相邻像素之间来回跳 —— 看起来就是地图在轻微"抽动/抖动"。
+; 吸附后所有 2D 变换落在整数画布像素上（1 画布像素 = 3 屏幕像素），地砖边缘稳定；
+; 275fps 下每帧只前进 0.43 画布像素，实际每 2~3 帧走一格，观感依然是连续移动。
+2d/snap/snap_2d_transforms_to_pixel=true
+2d/snap/snap_2d_vertices_to_pixel=true

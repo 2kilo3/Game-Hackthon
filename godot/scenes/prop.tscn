@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/prop.gd" id="1_prop"]
+
+[sub_resource type="RectangleShape2D" id="Rect_foot"]
+size = Vector2(28, 12)
+
+[node name="Prop" type="StaticBody2D"]
+script = ExtResource("1_prop")
+
+[node name="Sprite" type="Sprite2D" parent="."]
+
+[node name="Shape" type="CollisionShape2D" parent="."]
+position = Vector2(0, -6)
+shape = SubResource("Rect_foot")

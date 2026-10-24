@@ -1,0 +1,202 @@
+[gd_scene load_steps=32 format=3]
+
+[ext_resource type="Script" path="res://scripts/world.gd" id="1_world"]
+[ext_resource type="Script" path="res://scripts/ground.gd" id="2_ground"]
+[ext_resource type="PackedScene" path="res://scenes/player.tscn" id="3_player"]
+[ext_resource type="Script" path="res://scripts/status_bars.gd" id="7_statusbars"]
+[ext_resource type="PackedScene" path="res://scenes/test_dummy.tscn" id="8_dummy"]
+[ext_resource type="PackedScene" path="res://scenes/rewind_screen.tscn" id="9_rewind"]
+[ext_resource type="PackedScene" path="res://scenes/settings_menu.tscn" id="10_settings"]
+[ext_resource type="PackedScene" path="res://scenes/shooter_dummy.tscn" id="11_shooter"]
+[ext_resource type="Texture2D" path="res://assets/tiles/road_paving.png" id="12_road"]
+[ext_resource type="Texture2D" path="res://assets/tiles/future_paving.png" id="13_future_road"]
+[ext_resource type="PackedScene" path="res://scenes/map_future.tscn" id="14_future_map"]
+[ext_resource type="PackedScene" path="res://scenes/map_modern.tscn" id="15_modern_map"]
+[ext_resource type="PackedScene" path="res://scenes/future_enemy.tscn" id="16_enemy"]
+[ext_resource type="PackedScene" path="res://scenes/modern_enemy.tscn" id="17_menemy"]
+[ext_resource type="PackedScene" path="res://scenes/flower_pot.tscn" id="18_pot"]
+[ext_resource type="PackedScene" path="res://scenes/energy_pylon.tscn" id="19_pylon"]
+[ext_resource type="PackedScene" path="res://scenes/future_boss.tscn" id="20_boss"]
+[ext_resource type="PackedScene" path="res://scenes/modern_boss.tscn" id="22_mboss"]
+[ext_resource type="Script" path="res://scripts/boss_hud.gd" id="21_bosshud"]
+[ext_resource type="Script" path="res://scripts/talent_menu.gd" id="23_talents"]
+
+
+[ext_resource type="Script" path="res://scripts/dialogue_host.gd" id="24_dialogue"]
+
+[sub_resource type="RectangleShape2D" id="Rect_h"]
+size = Vector2(1024, 16)
+
+[sub_resource type="RectangleShape2D" id="Rect_v"]
+size = Vector2(16, 640)
+
+[node name="World" type="Node2D"]
+script = ExtResource("1_world")
+modern_floor = ExtResource("12_road")
+future_floor = ExtResource("13_future_road")
+
+[node name="Ground" type="Node2D" parent="."]
+z_index = -10
+script = ExtResource("2_ground")
+floor_texture = ExtResource("12_road")
+floor_tile_scale = 1.0
+
+[node name="YSort" type="Node2D" parent="."]
+y_sort_enabled = true
+
+[node name="ModernEnemy" parent="YSort" instance=ExtResource("17_menemy")]
+position = Vector2(400, -40)
+
+[node name="ModernEnemy2" parent="YSort" instance=ExtResource("17_menemy")]
+position = Vector2(-320, -160)
+
+[node name="ModernEnemy3" parent="YSort" instance=ExtResource("17_menemy")]
+position = Vector2(-320, 160)
+
+[node name="FlowerPot1" parent="YSort" instance=ExtResource("18_pot")]
+position = Vector2(-200, 0)
+pot_index = 0
+
+[node name="FlowerPot2" parent="YSort" instance=ExtResource("18_pot")]
+position = Vector2(0, 120)
+pot_index = 1
+
+[node name="FlowerPot3" parent="YSort" instance=ExtResource("18_pot")]
+position = Vector2(-120, -80)
+pot_index = 2
+
+[node name="EnergyPylon1" parent="YSort" instance=ExtResource("19_pylon")]
+visible = false
+position = Vector2(-200, 0)
+pot_index = 0
+
+[node name="EnergyPylon2" parent="YSort" instance=ExtResource("19_pylon")]
+visible = false
+position = Vector2(0, 120)
+pot_index = 1
+
+[node name="EnergyPylon3" parent="YSort" instance=ExtResource("19_pylon")]
+visible = false
+position = Vector2(-120, -80)
+pot_index = 2
+
+[node name="ModernBoss" parent="YSort" instance=ExtResource("22_mboss")]
+position = Vector2(300, -150)
+
+[node name="FutureBoss" parent="YSort" instance=ExtResource("20_boss")]
+visible = false
+process_mode = 4
+position = Vector2(300, -150)
+
+[node name="Player" parent="YSort" instance=ExtResource("3_player")]
+position = Vector2(-96, 0)
+
+[node name="Walls" type="StaticBody2D" parent="."]
+collision_layer = 1
+collision_mask = 1
+
+[node name="Top" type="CollisionShape2D" parent="Walls"]
+position = Vector2(0, -322)
+shape = SubResource("Rect_h")
+
+[node name="Bottom" type="CollisionShape2D" parent="Walls"]
+position = Vector2(0, 322)
+shape = SubResource("Rect_h")
+
+[node name="Left" type="CollisionShape2D" parent="Walls"]
+position = Vector2(-514, 0)
+shape = SubResource("Rect_v")
+
+[node name="Right" type="CollisionShape2D" parent="Walls"]
+position = Vector2(514, 0)
+shape = SubResource("Rect_v")
+
+[node name="HUD" type="CanvasLayer" parent="."]
+
+[node name="BossHud" type="Node2D" parent="HUD"]
+script = ExtResource("21_bosshud")
+
+[node name="Debug" type="Label" parent="HUD"]
+offset_left = 6.0
+offset_top = 3.0
+offset_right = 380.0
+offset_bottom = 16.0
+theme_override_colors/font_color = Color(0.20, 0.22, 0.26, 1)
+theme_override_colors/font_outline_color = Color(0.92, 0.93, 0.95, 0.85)
+theme_override_constants/outline_size = 2
+theme_override_font_sizes/font_size = 8
+text = "fps"
+
+[node name="Hint" type="Label" parent="HUD"]
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -230.0
+offset_top = -17.0
+offset_right = -6.0
+offset_bottom = -4.0
+grow_horizontal = 0
+grow_vertical = 0
+theme_override_colors/font_color = Color(0.24, 0.26, 0.30, 1)
+theme_override_colors/font_outline_color = Color(0.92, 0.93, 0.95, 0.85)
+theme_override_constants/outline_size = 2
+theme_override_font_sizes/font_size = 8
+text = "WASD 移动"
+horizontal_alignment = 2
+
+[node name="StatusBars" type="Control" parent="HUD"]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 200.0
+offset_bottom = 206.0
+mouse_filter = 2
+script = ExtResource("7_statusbars")
+
+[node name="RewindScreen" parent="." instance=ExtResource("9_rewind")]
+
+[node name="SettingsMenu" parent="." instance=ExtResource("10_settings")]
+
+[node name="TalentMenu" type="CanvasLayer" parent="."]
+process_mode = 3
+layer = 60
+script = ExtResource("23_talents")
+
+[node name="ModernMap" parent="." instance=ExtResource("15_modern_map")]
+z_index = -9
+position = Vector2(-1120, -608)
+
+[node name="FutureMap" parent="." instance=ExtResource("14_future_map")]
+visible = false
+z_index = -9
+position = Vector2(-1152, -624)
+
+[node name="FutureEnemy" parent="YSort" instance=ExtResource("16_enemy")]
+visible = false
+process_mode = 4
+position = Vector2(-420, -60)
+
+[node name="FutureEnemy2" parent="YSort" instance=ExtResource("16_enemy")]
+visible = false
+process_mode = 4
+position = Vector2(-100, -200)
+
+[node name="FutureEnemy3" parent="YSort" instance=ExtResource("16_enemy")]
+visible = false
+process_mode = 4
+position = Vector2(300, -150)
+
+[node name="FutureEnemy4" parent="YSort" instance=ExtResource("16_enemy")]
+visible = false
+process_mode = 4
+position = Vector2(-160, 200)
+
+[node name="FutureEnemy5" parent="YSort" instance=ExtResource("16_enemy")]
+visible = false
+process_mode = 4
+position = Vector2(200, 0)
+
+[node name="DialogueHost" type="Node" parent="."]
+process_mode = 3
+script = ExtResource("24_dialogue")

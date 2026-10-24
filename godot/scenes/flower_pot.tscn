@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://scripts/flower_pot.gd" id="1_pot"]
+[ext_resource type="SpriteFrames" path="res://resources/flowerpot_frames.tres" id="2_frames"]
+
+[sub_resource type="RectangleShape2D" id="Rect_pot"]
+size = Vector2(52, 38)
+
+[node name="FlowerPot" type="StaticBody2D"]
+script = ExtResource("1_pot")
+
+[node name="Sprite" type="AnimatedSprite2D" parent="."]
+sprite_frames = ExtResource("2_frames")
+animation = &"break"
+offset = Vector2(0, -48)
+centered = true
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+position = Vector2(0, -19)
+shape = SubResource("Rect_pot")

@@ -1,0 +1,9 @@
+# Godot 导入缓存
+.godot/
+
+# 打包产物（需要时用 D:\godot\build-all.bat 重新生成）
+build/
+
+# 临时文件
+*.tmp
+export/
