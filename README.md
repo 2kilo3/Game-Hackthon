@@ -71,6 +71,16 @@ EXE SHA-256：`df57b2d3ece8a530296b705252ab9a248cf5af8565c986319f72536a0f8cb46f`
 
 使用 **Godot 4.7.2 stable、GDScript 和 Compatibility 渲染器**。2D 场景、八方向序列帧与按 Y 排序形成 2.5D 像素表现。`Timeline` 管理时空状态，`World` 管理敌人、场景与跨时空因果；玩家、普通敌人和 Boss 使用各自的行为逻辑。菜单通过信号连接宿主；`DialogueHost` 接收战斗、拾取、天赋、穿梭与死亡事件，将对白排队、去重并处理暂停与结局转场。
 
+以下实现可在仓库直接核对：
+
+| 模块 | 源码依据与职责 |
+|---|---|
+| 启动与重开 | [`main_menu_host.gd`](godot/scripts/main_menu_host.gd)：连接菜单信号，清理暂停和输入，重置 Timeline 后加载 World |
+| 时空状态 | [`timeline.gd`](godot/scripts/timeline.gd)：现代/未来枚举，切换后发送 `era_changed` |
+| 场景因果 | [`world.gd`](godot/scripts/world.gd)：`mark_pot_broken` 按编号保存破坏状态；[`energy_pylon.gd`](godot/scripts/energy_pylon.gd) 读取状态并筛选范围内的有效 Boss |
+| 角色战斗 | [`player.gd`](godot/scripts/player.gd)、[`modern_boss.gd`](godot/scripts/modern_boss.gd)、[`future_boss.gd`](godot/scripts/future_boss.gd)：处理各自的动作、攻击与受击行为 |
+| 剧情与结局 | [`dialogue_host.gd`](godot/scripts/dialogue_host.gd) 接收事件、管理对白队列与淡出；[`story_dialogue.gd`](godot/scripts/story_dialogue.gd) 存放台词；[`game_over.gd`](godot/scripts/game_over.gd) 处理返回主菜单 |
+
 | 工具 | 实际用途 |
 |---|---|
 | DeepSeek Harness | 主要程序开发与玩法实现 |
